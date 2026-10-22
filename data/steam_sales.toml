@@ -1,0 +1,1872 @@
+# Steam 特賣行事曆正本（contracts/sales-calendar.md）。
+# 初始資料來源：specs/001-price-data-foundation/research-sales-calendar.md（2026-09-24 整理，未使用 SteamDB）。
+# 2012–2018 季節特賣：specs/002-backtest-baseline/research-calendar-2012-2018.toml（2026-09-25 整理，未使用 SteamDB）。
+# 只寫日期時，開始與結束時間為太平洋時間 10:00；end 是恢復原價的時間。
+# status 只是整理當下的狀態；程式以 end 是否已過來判斷是否已結束。
+# 季節特賣也會從官方季節特賣頁面自動取得（feature 012）；`sweetspot calendar --sync --write` 會把新場次或改期寫入這個檔案。
+schema_version = 1
+default_time = "10:00"
+default_tz = "America/Los_Angeles"
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2012
+start = "2012-07-12"
+end = "2012-07-23"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/8388"
+confidence = "official"
+note = "Valve: \"starts today and lasts through Monday, July 23rd, 2012\". Valve's \"FINAL DAY\" post is dated 07-22 and says the sale \"concludes today\" (https://store.steampowered.com/oldnews/8451), so the last full day was 07-22 and prices returned at 10:00 PDT on 07-23. A Wayback snapshot of the store at 2012-07-23 23:43 PDT shows no sale (https://web.archive.org/web/20120724064331/http://store.steampowered.com/). RPS also says \"July 12 to July 22\". The sale had Daily Deals, 8-hour Flash Sales and Community Choice votes."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2012
+start = "2012-11-21"
+end = "2012-11-27"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/9428"
+confidence = "official"
+note = "Thanksgiving-week sale. Valve: \"starts today and lasts through Monday, November 26th, 2012\". The \"DAY SIX\" post is dated 11-26 (https://store.steampowered.com/oldnews/9441). Valve's 11-27 post says \"The Steam Autumn Sale has come to a close\" and extends the Day 6 Daily Deals to Wed 11-28 10:00 PT (https://store.steampowered.com/oldnews/9447). A developer leak reported by Kotaku on 11-20 also gave \"until November 27\". The sale had Daily Deals and Flash Sales."
+
+[[sale]]
+name = "Steam Holiday Sale"
+name_zh = "假期特賣（冬季特賣）"
+kind = "seasonal"
+season = "winter"
+year = 2012
+start = "2012-12-20"
+end = "2013-01-05"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/9635"
+confidence = "official"
+note = "Posted in Valve's steam_release feed. Valve: \"starts now and the deep discounts last until Saturday, January 5th, 2013\". There were daily posts through \"DAY SIXTEEN\" on 01-04 (https://store.steampowered.com/oldnews/9686). A separate Holiday Encore on selected top titles ran from 01-05 10:00 PST to 01-07 10:00 PST (https://store.steampowered.com/oldnews/9690 and https://store.steampowered.com/oldnews/9692). The encore is not included in `end`. A leak reported by Kotaku gave Dec 20 to Jan 4. Valve's own posts are used instead. The sale had Daily Deals, Flash Sales and Community Choice votes."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2013
+start = "2013-07-11"
+end = "2013-07-22"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/11069"
+confidence = "official"
+note = "Valve calls it the \"Steam Summer Getaway Sale\": \"For the next eleven days\" and \"will run from now until 10AM PST, July 22nd\". Valve wrote PST, but the real offset was PDT (UTC-7). The sale had 8-hour Flash Sales, Community's Choice votes and Daily Deals. Trading cards were introduced during this sale. Normal Daily Deals resumed on 07-22."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2013
+start = "2013-11-27"
+end = "2013-12-03"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/11961"
+confidence = "official"
+note = "Thanksgiving-week sale. The day-1 post is titled \"Steam Sale Starts Now!\" and says \"For the next six days\". Later posts are titled \"Steam Autumn Sale Day N\". \"Day 6 - Cyber Monday\" was 12-02 (https://store.steampowered.com/oldnews/11970), and a normal Daily Deal started 12-03 (https://store.steampowered.com/oldnews/11974). The sale had Daily Deals and 8-hour Flash Sales."
+
+[[sale]]
+name = "Steam Holiday Sale"
+name_zh = "假期特賣（冬季特賣）"
+kind = "seasonal"
+season = "winter"
+year = 2013
+start = "2013-12-19"
+end = "2014-01-02"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/12138"
+confidence = "official"
+note = "Valve: \"For the next fourteen days\" and \"The Steam Holiday Sale will run until 10AM PST, January 2nd\" (https://store.steampowered.com/oldnews/12160). A separate Holiday Encore Sale on about 23 top deals ran 01-02 to 01-03 10:00 PST (https://store.steampowered.com/oldnews/12163). The encore is not included in `end`. The sale had Daily Deals, 8-hour Flash Sales and Community's Choice votes."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2014
+start = "2014-06-19"
+end = "2014-06-30"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/13702"
+confidence = "official"
+note = "The sale ran with the Summer Adventure event. The start post says \"For the next ten days\". The Encore Day post on 06-29 says \"The Steam Summer Sale will run until 10AM PDT, June 30th\" (https://store.steampowered.com/oldnews/13733). The Encore Day is inside the sale window. The sale had Daily Deals, 8-hour Flash Sales and Community's Choice Flash Sales."
+
+[[sale]]
+name = "Steam Exploration Sale"
+name_zh = "探索特賣（秋季特賣）"
+kind = "seasonal"
+season = "autumn"
+year = 2014
+start = "2014-11-26"
+end = "2014-12-02"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/15081"
+confidence = "official"
+note = "This was the 2014 Thanksgiving-week sale. Valve named it the Exploration Sale, and RPS called it the Steam Autumn Sale. Valve: \"For the next six days\" and \"runs from now until 10AM Pacific Time, December 2nd\". The sale had Daily Deals (featured deals rotating each day)."
+
+[[sale]]
+name = "Steam Holiday Sale"
+name_zh = "假期特賣（冬季特賣）"
+kind = "seasonal"
+season = "winter"
+year = 2014
+start = "2014-12-18"
+end = "2015-01-02"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/15308"
+confidence = "official"
+note = "Valve: \"For the next fifteen days\" and \"The Steam Holiday Sale runs from December 18th until 10AM PST, January 2nd\" (https://store.steampowered.com/oldnews/15349). The Encore on 40 deals started 12-31 and was inside the sale window (https://store.steampowered.com/oldnews/15371). New deals appeared every 12 hours, and the sale had Community's Choice votes and 24-hour Featured Deals."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2015
+start = "2015-06-11"
+end = "2015-06-22"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/17207"
+confidence = "official"
+note = "Valve calls it the \"Steam Monster Summer Sale\": \"For the next eleven days\" and \"will run from now until 10 AM Pacific, June 22nd\". Daily Deals rotated every 12 hours, and the Monster Summer Game unlocked extra discounts. The Encore started 06-20 and was inside the sale window (https://store.steampowered.com/oldnews/17237). This was the last seasonal sale with rotating Daily Deals."
+
+[[sale]]
+name = "Steam Exploration Sale"
+name_zh = "探索特賣（秋季特賣）"
+kind = "seasonal"
+season = "autumn"
+year = 2015
+start = "2015-11-25"
+end = "2015-12-01"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/19452"
+confidence = "official"
+note = "This was the 2015 Thanksgiving-week sale. Valve named it the Exploration Sale, and RPS called it the Steam Autumn Sale. Valve: \"Offers end Tuesday December 1 at 10AM Pacific\". It was the first seasonal sale without Daily Deals or Flash Sales: each game kept one price for the whole sale (Kotaku, 2015-11-20: https://kotaku.com/valve-is-changing-steam-sales-1743858102)."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2015
+start = "2015-12-22"
+end = "2016-01-04"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/19813"
+confidence = "official"
+note = "Valve calls it the Winter Sale from this year on. Valve: \"Discount offers end January 4th at 10am Pacific\". The Winter Sale ran without Daily Deals or Flash Sales."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2016
+start = "2016-06-23"
+end = "2016-07-04"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/22603"
+confidence = "official"
+note = "The sale had Summer Picnic trading cards. Valve: \"For the next 11 days\" and \"Discount offers end July 4th at 10 AM Pacific Time\". The Day 10 Encore on 07-02 was inside the sale window (https://store.steampowered.com/oldnews/22671)."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2016
+start = "2016-11-23"
+end = "2016-11-29"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/25825"
+confidence = "official"
+note = "Thanksgiving-week sale. The first Steam Awards nominations ran during it. Valve: \"Offers end Tuesday November 29th at 10am Pacific\"."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2016
+start = "2016-12-22"
+end = "2017-01-02"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/26499"
+confidence = "official"
+note = "Valve's posts say \"Discounts end January 2nd at 10pm Pacific\", but 10pm was a typo. The usual 10:00 PST end is used here. Evidence: (1) A Valve Daily Deal on 12-20 that ran into the sale says \"Offer ends January 2nd at 10AM Pacific Time\" (https://store.steampowered.com/oldnews/26424). (2) Normal Daily Deals resumed on 01-02 (https://store.steampowered.com/oldnews/26599). (3) Users on the Steam forum reported that the sale ended at 10am, matching the store banner and countdown (https://steamcommunity.com/discussions/forum/1/154645512753908054). (4) Shacknews gave a Jan 2, ~10 AM PT end."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2017
+start = "2017-06-22"
+end = "2017-07-05"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/30293"
+confidence = "official"
+note = "The sale had a sticker book and trading cards. Valve: \"For the next 13 days\" and \"Discount offers end July 5th at 10 AM Pacific Time\". The Day 12 Encore on 07-03 was inside the sale window (https://store.steampowered.com/oldnews/30307)."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2017
+start = "2017-11-22"
+end = "2017-11-28"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/34820"
+confidence = "official"
+note = "Thanksgiving-week sale, with Steam Awards nominations. Valve: \"Offers end Tuesday November 28th at 10am Pacific\"."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2017
+start = "2017-12-21"
+end = "2018-01-04"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/35783"
+confidence = "official"
+note = "The main post says \"Discounts end January 4th at 10pm Pacific\". This is the same typo as in 2016. Valve's same-day Winter Sale hardware post says \"Offer ends Thursday, January 4th at 10AM Pacific Time\" (https://store.steampowered.com/oldnews/35477). The 10:00 PST end is used here."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2018
+start = "2018-06-21"
+end = "2018-07-05"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/41369"
+confidence = "official"
+note = "Valve calls it the \"Steam Intergalactic Summer Sale\" (with a browser mini-game). Valve: \"For the next fourteen days\" and \"will run from now until 10 AM Pacific, July 5th\"."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2018
+start = "2018-11-21"
+end = "2018-11-27"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/46126"
+confidence = "official"
+note = "Thanksgiving-week sale, with Steam Awards nominations. Valve: \"Offers end Tuesday November 27th at 10am Pacific\"."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2018
+start = "2018-12-20"
+end = "2019-01-03"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2796070940830444045"
+confidence = "official"
+note = "The sale had the Cozy Cottage event and Steam Awards voting. Valve: \"Discounts end January 3, 2019 at 10am Pacific\". Valve's 01-02 post calls that day the \"final day\" (https://steamcommunity.com/games/593110/announcements/detail/1714081669566733390)."
+
+[[sale]]
+name = "Steam Lunar New Year Sale"
+name_zh = "農曆新年特賣"
+kind = "themed"
+year = 2019
+start = "2019-02-04"
+end = "2019-02-11"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/1750114346364440017"
+confidence = "secondary"
+note = "10:00 PT assumed. Valve's post confirms the start date. The end date comes from PC Gamer."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2019
+start = "2019-06-25"
+end = "2019-07-09"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/1616144864293404894"
+confidence = "official"
+note = "The post says \"For the next 14 days\", so the end date is start + 14 days. The Grand Prix mini-event ended earlier, on 07-07 at 10:00 PDT."
+
+[[sale]]
+name = "Steam Halloween Sale"
+name_zh = "萬聖節特賣"
+kind = "themed"
+year = 2019
+start = "2019-10-28"
+end = "2019-11-01"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/1666821776717777071"
+confidence = "secondary"
+note = "Valve: \"until November 1st at 10am Pacific\". The start date comes from press (gg.deals)."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2019
+start = "2019-11-26"
+end = "2019-12-03"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3605623508392801946"
+confidence = "official"
+note = "\"Offers end Tuesday December 3rd at 10am Pacific\""
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2019
+start = "2019-12-19"
+end = "2020-01-02"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3180035790689045584"
+confidence = "official"
+note = "\"Discounts end January 2nd at 10am PST\""
+
+[[sale]]
+name = "Steam Lunar New Year Sale"
+name_zh = "農曆新年特賣"
+kind = "themed"
+year = 2020
+start = "2020-01-23"
+end = "2020-01-27"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/1706236518822639430"
+confidence = "official"
+note = "\"now through January 27th at 10 am Pacific\""
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2020
+start = "2020-06-25"
+end = "2020-07-09"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2445966074571282888"
+confidence = "secondary"
+note = "Valve's post confirms the start and says \"the next two weeks\". The end date (07-09, 10:00 PDT) comes from press."
+
+[[sale]]
+name = "Steam Halloween Sale"
+name_zh = "萬聖節特賣"
+kind = "themed"
+year = 2020
+start = "2020-10-29"
+end = "2020-11-02"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2922233151838517106"
+confidence = "official"
+note = "\"on now until November 2nd at 10am Pacific\". The start date is the post date."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2020
+start = "2020-11-25"
+end = "2020-12-01"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2914353120901701711"
+confidence = "official"
+note = "\"ending at 10am Pacific on Tuesday, December 1st\""
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2020
+start = "2020-12-22"
+end = "2021-01-05"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2904223191309839604"
+confidence = "official"
+note = "Valve's post confirms the start. The end (01-05 18:00 UTC = 10:00 PST) comes from the end time on Valve's Steam Promotions \"Winter Sale –\" sub-events in the Steam events JSON. Press agrees."
+
+[[sale]]
+name = "Steam Lunar New Year Sale"
+name_zh = "農曆新年特賣"
+kind = "themed"
+year = 2021
+start = "2021-02-11"
+end = "2021-02-15"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3016818255535621678"
+confidence = "official"
+note = "\"now through February 15th at 10am Pacific\""
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2021
+start = "2021-06-24"
+end = "2021-07-08"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2981927408950091621"
+confidence = "official"
+note = "\"From June 24th to July 8th\". Ends \"July 8th, 2021 at 10AM PST\" (really PDT)."
+
+[[sale]]
+name = "Steam Halloween Sale"
+name_zh = "萬聖節特賣"
+kind = "themed"
+year = 2021
+start = "2021-10-28"
+end = "2021-11-01"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3021345332649804118"
+confidence = "official"
+note = "\"runs until November 1st at 10am Pacific\". The start date is the post date."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2021
+start = "2021-11-24"
+end = "2021-12-01"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/4555948886325351153"
+confidence = "official"
+note = "\"now through 10am Pacific on Wednesday, December 1st\""
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2021
+start = "2021-12-22"
+end = "2022-01-05"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/5071614219293722782"
+confidence = "official"
+note = "\"through January 5th at 10am Pacific\""
+
+[[sale]]
+name = "Steam Lunar New Year Sale"
+name_zh = "農曆新年特賣"
+kind = "themed"
+year = 2022
+start = "2022-01-27"
+end = "2022-02-03"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3100165379962854007"
+confidence = "official"
+note = "\"now through February 3rd at 10am Pacific\""
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2022
+start = "2022-06-23"
+end = "2022-07-07"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3335493590017083918"
+confidence = "secondary"
+note = "Valve: \"until July 7th (at 10am PT)\". Valve's post is dated 06-24. The 06-23 10:00 PT start comes from press."
+
+[[sale]]
+name = "Steam Scream Fest"
+name_zh = "Steam 尖叫節(萬聖節)"
+kind = "themed"
+year = 2022
+start = "2022-10-25"
+end = "2022-11-01"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3404177923749444204"
+confidence = "official"
+note = "\"October 25, 10:00 AM PDT (GMT-7) to November 1, 10:00 AM PDT\""
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2022
+start = "2022-11-22"
+end = "2022-11-29"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3388424091280374210"
+confidence = "official"
+note = "\"November 22nd at 10am PST (UTC -8) until November 29th at 10am PST\""
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2022
+start = "2022-12-22"
+end = "2023-01-05"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3653012651448289509"
+confidence = "official"
+note = "\"December 22nd at 10am PST through January 5, 2023 at 10am PST\""
+
+[[sale]]
+name = "Steam Spring Sale"
+name_zh = "春季特賣"
+kind = "seasonal"
+season = "spring"
+year = 2023
+start = "2023-03-16"
+end = "2023-03-23"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3694679839286985809"
+confidence = "official"
+note = "\"March 16th - March 23rd at 10am Pacific\""
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2023
+start = "2023-06-29"
+end = "2023-07-13"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3645136358931000681"
+confidence = "official"
+note = "\"runs until July 13th at 10am PT\""
+
+[[sale]]
+name = "Steam Scream: The Revenge"
+name_zh = "Steam 尖叫節 2"
+kind = "themed"
+year = 2023
+start = "2023-10-26"
+end = "2023-11-02"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3719453992471603363"
+confidence = "official"
+note = "\"October 26 at 10:00 AM PDT (UTC-7) to November 2 at 10:00 AM PDT\""
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2023
+start = "2023-11-21"
+end = "2023-11-28"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3823053915973575702"
+confidence = "official"
+note = "\"November 21st at 10am PST (UTC -8) and November 28th at 10am PST\""
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2023
+start = "2023-12-21"
+end = "2024-01-04"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3823053915973576612"
+confidence = "official"
+note = "\"December 21st at 10am PST until January 4th at 10am PST\""
+
+[[sale]]
+name = "Steam Spring Sale"
+name_zh = "春季特賣"
+kind = "seasonal"
+season = "spring"
+year = 2024
+start = "2024-03-14"
+end = "2024-03-21"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/4118050466868346371"
+confidence = "official"
+note = "\"March 14th through 21st at 10am Pacific\""
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2024
+start = "2024-06-27"
+end = "2024-07-11"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention. The schedule says \"June 27 - July 11\"."
+
+[[sale]]
+name = "Steam Scream Fest 3"
+name_zh = "Steam 尖叫節 3"
+kind = "themed"
+year = 2024
+start = "2024-10-28"
+end = "2024-11-04"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention. The schedule says \"October 28 - November 4\"."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2024
+start = "2024-11-27"
+end = "2024-12-04"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/4464851103138185583"
+confidence = "official"
+note = "\"now through December 4th at 10am PST\""
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2024
+start = "2024-12-19"
+end = "2025-01-02"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/520825178851115845"
+confidence = "official"
+note = "\"runs through January 2 (2025!) at 10am PST\""
+
+[[sale]]
+name = "Steam Spring Sale"
+name_zh = "春季特賣"
+kind = "seasonal"
+season = "spring"
+year = 2025
+start = "2025-03-13"
+end = "2025-03-20"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/520833241446351892"
+confidence = "official"
+note = "\"on now through March 20th at 10am PT\""
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2025
+start = "2025-06-26"
+end = "2025-07-10"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/500577186633220419"
+confidence = "official"
+note = "\"until July 10th at 10am Pacific\""
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2025
+start = "2025-09-29"
+end = "2025-10-06"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/507340830949770005"
+confidence = "official"
+note = "\"through October 6th at 10 a.m. PT\""
+
+[[sale]]
+name = "Steam Scream 4"
+name_zh = "Steam 尖叫節 4"
+kind = "themed"
+year = 2025
+start = "2025-10-27"
+end = "2025-11-03"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/497187349280587904"
+confidence = "official"
+note = "10:00 PT convention. The schedule says \"October 27 – November 3\"."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2025
+start = "2025-12-18"
+end = "2026-01-05"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/492711197218440448"
+confidence = "official"
+note = "10:00 PT convention. \"December 18th 2025 through January 5th 2026\" (18 days)."
+
+[[sale]]
+name = "Steam Spring Sale"
+name_zh = "春季特賣"
+kind = "seasonal"
+season = "spring"
+year = 2026
+start = "2026-03-19"
+end = "2026-03-26"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/526496349181445006"
+confidence = "official"
+note = "\"on now through March 26th at 10 a.m. PT\""
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2026
+start = "2026-06-25"
+end = "2026-07-09"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/673998115585395513"
+confidence = "official"
+note = "\"Now through July 9th at 10 a.m. Pacific\""
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2026
+start = "2026-10-01"
+end = "2026-10-08"
+status = "announced"
+source = "https://partner.steamgames.com/doc/marketing/upcoming_events"
+confidence = "official"
+note = "10:00 PT convention. Announced in advance."
+
+[[sale]]
+name = "Steam Scream V Fest"
+name_zh = "Steam 尖叫節 5"
+kind = "themed"
+year = 2026
+start = "2026-10-26"
+end = "2026-11-02"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention. Announced in advance."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2026
+start = "2026-12-17"
+end = "2027-01-04"
+status = "announced"
+source = "https://partner.steamgames.com/doc/marketing/discounts/seasonalsales"
+confidence = "official"
+note = "10:00 PT convention. Announced in advance (18 days)."
+
+[[sale]]
+name = "Steam Spring Sale"
+name_zh = "春季特賣"
+kind = "seasonal"
+season = "spring"
+year = 2027
+start = "2027-03-18"
+end = "2027-03-25"
+status = "announced"
+source = "https://partner.steamgames.com/doc/marketing/discounts/seasonalsales"
+confidence = "official"
+note = "10:00 PT convention. Announced in advance."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2027
+start = "2027-06-24"
+end = "2027-07-08"
+status = "announced"
+source = "https://partner.steamgames.com/doc/marketing/discounts/seasonalsales"
+confidence = "official"
+note = "10:00 PT convention. Announced in advance."
+
+[[sale]]
+name = "Steam Remote Play Together Sale & Event"
+name_zh = "遠端同樂特賣"
+kind = "themed"
+year = 2019
+start = "2019-11-20"
+end = "2019-11-25"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3605623508387016471"
+confidence = "official"
+note = "\"through November 25th at 10AM\""
+
+[[sale]]
+name = "Steam Digital Tabletop Fest"
+name_zh = "數位桌遊節"
+kind = "themed"
+year = 2020
+start = "2020-10-21"
+end = "2020-10-26"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2769108226045128183"
+confidence = "official"
+note = "Starts 10:00 PT"
+
+[[sale]]
+name = "Steam Fighting Game Sale"
+name_zh = "格鬥遊戲特賣"
+kind = "themed"
+year = 2020
+start = "2020-11-12"
+end = "2020-11-16"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2897465256256630851"
+confidence = "official"
+note = "\"until November 16th at 10am Pacific\""
+
+[[sale]]
+name = "Steam Remote Play Together Sale"
+name_zh = "遠端同樂特賣"
+kind = "themed"
+year = 2021
+start = "2021-03-25"
+end = "2021-03-29"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3061855517879784503"
+confidence = "official"
+note = "\"March 25th - 29th at 10am Pacific\""
+
+[[sale]]
+name = "Steam Golden Week Sale"
+name_zh = "黃金週特賣"
+kind = "themed"
+year = 2021
+start = "2021-04-29"
+end = "2021-05-06"
+status = "ended"
+source = "https://store.steampowered.com/news/group/39049601/view/3013444995204328631"
+confidence = "official"
+note = "10:00 PT"
+
+[[sale]]
+name = "Steam Open World Sale"
+name_zh = "開放世界特賣"
+kind = "themed"
+year = 2021
+start = "2021-05-27"
+end = "2021-05-31"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3119280855634041742"
+confidence = "official"
+note = "\"May 27 - 31, 10am Pacific\""
+
+[[sale]]
+name = "Steam Digital Tabletop Fest"
+name_zh = "數位桌遊節"
+kind = "themed"
+year = 2021
+start = "2021-10-21"
+end = "2021-10-25"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2858087379437902206"
+confidence = "official"
+note = "\"through the 25th at 10am Pacific\""
+
+[[sale]]
+name = "Steam Remote Play Together Sale"
+name_zh = "遠端同樂特賣"
+kind = "themed"
+year = 2022
+start = "2022-02-28"
+end = "2022-03-07"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3091161894501379845"
+confidence = "official"
+note = "\"through Monday March 7th at 10am Pacific\""
+
+[[sale]]
+name = "Steam JRPG Sale"
+name_zh = "日式 RPG 特賣"
+kind = "themed"
+year = 2022
+start = "2022-03-14"
+end = "2022-03-21"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3091163163109910645"
+confidence = "official"
+note = "Starts 10:00 PT"
+
+[[sale]]
+name = "Steam Simfest: Hobby Edition"
+name_zh = "模擬遊戲節:嗜好版"
+kind = "themed"
+year = 2022
+start = "2022-03-28"
+end = "2022-04-04"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3133947359568029623"
+confidence = "official"
+note = "\"March 28 at 10am Pacific - April 4th at 10am Pacific\""
+
+[[sale]]
+name = "Steam Racing Fest"
+name_zh = "賽車節"
+kind = "themed"
+year = 2022
+start = "2022-05-23"
+end = "2022-05-30"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/3180116240852632901"
+confidence = "official"
+note = "10:00 PT"
+
+[[sale]]
+name = "Steam VR Fest"
+name_zh = "VR 節"
+kind = "themed"
+year = 2022
+start = "2022-07-18"
+end = "2022-07-25"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3218394291609115018"
+confidence = "official"
+note = "\"10:00 AM PDT (GMT-7)\""
+
+[[sale]]
+name = "Steam Survival Fest"
+name_zh = "生存遊戲節"
+kind = "themed"
+year = 2022
+start = "2022-08-01"
+end = "2022-08-08"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3222900587040657570"
+confidence = "official"
+note = "\"10:00 AM PDT (GMT-7)\""
+
+[[sale]]
+name = "Steam Bash Bash"
+name_zh = "格鬥亂鬥節"
+kind = "themed"
+year = 2022
+start = "2022-09-19"
+end = "2022-09-26"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3330988721845691321"
+confidence = "official"
+note = "\"10:00 AM PDT (GMT-7)\""
+
+[[sale]]
+name = "Steam Base Builder Fest"
+name_zh = "基地建造節"
+kind = "themed"
+year = 2023
+start = "2023-01-23"
+end = "2023-01-30"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3225161106686509392"
+confidence = "official"
+note = "\"10:00 AM PST (UTC-8)\""
+
+[[sale]]
+name = "Steam Mystery Fest"
+name_zh = "推理解謎節"
+kind = "themed"
+year = 2023
+start = "2023-02-20"
+end = "2023-02-27"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3524658636207210572"
+confidence = "official"
+note = "\"10:00 AM PST (UTC-8)\""
+
+[[sale]]
+name = "Steam Puzzle Fest"
+name_zh = "益智解謎節"
+kind = "themed"
+year = 2023
+start = "2023-04-24"
+end = "2023-05-01"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3611354355084733654"
+confidence = "official"
+note = "\"10:00 AM PDT (UTC-7)\""
+
+[[sale]]
+name = "Steam Sports Fest"
+name_zh = "運動遊戲節"
+kind = "themed"
+year = 2023
+start = "2023-05-15"
+end = "2023-05-22"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3611354355085197083"
+confidence = "official"
+note = "\"10:00 AM PDT (UTC-7)\""
+
+[[sale]]
+name = "Steam Stealth Fest"
+name_zh = "潛行遊戲節"
+kind = "themed"
+year = 2023
+start = "2023-07-24"
+end = "2023-07-31"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3645136358931000681"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Visual Novel Fest"
+name_zh = "視覺小說節"
+kind = "themed"
+year = 2023
+start = "2023-08-07"
+end = "2023-08-14"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3645136358931000681"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Strategy Fest"
+name_zh = "策略遊戲節"
+kind = "themed"
+year = 2023
+start = "2023-08-28"
+end = "2023-09-04"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3645136358931000681"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam SHMUP Fest"
+name_zh = "射擊遊戲 (STG) 節"
+kind = "themed"
+year = 2023
+start = "2023-09-25"
+end = "2023-10-02"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3645136358931000681"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam VR Fest"
+name_zh = "VR 節"
+kind = "themed"
+year = 2023
+start = "2023-12-04"
+end = "2023-12-11"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/6690718524057147206"
+confidence = "official"
+note = "\"10:00 AM PST (GMT-8)\""
+
+[[sale]]
+name = "Steam Capitalism and Economy Fest"
+name_zh = "資本主義與經濟節"
+kind = "themed"
+year = 2024
+start = "2024-01-08"
+end = "2024-01-15"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Pirates vs. Ninjas Fest"
+name_zh = "海盜對忍者節"
+kind = "themed"
+year = 2024
+start = "2024-01-22"
+end = "2024-01-29"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Remote Play Together Fest"
+name_zh = "遠端同樂節"
+kind = "themed"
+year = 2024
+start = "2024-02-12"
+end = "2024-02-19"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Dinos vs. Robots Fest"
+name_zh = "恐龍對機器人節"
+kind = "themed"
+year = 2024
+start = "2024-02-26"
+end = "2024-03-04"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Deckbuilders Fest"
+name_zh = "牌組構築節"
+kind = "themed"
+year = 2024
+start = "2024-03-25"
+end = "2024-04-01"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam FPS Fest"
+name_zh = "第一人稱射擊節"
+kind = "themed"
+year = 2024
+start = "2024-04-15"
+end = "2024-04-22"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Farming Fest"
+name_zh = "農場遊戲節"
+kind = "themed"
+year = 2024
+start = "2024-04-29"
+end = "2024-05-06"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Endless Replayability Fest"
+name_zh = "無限重玩節"
+kind = "themed"
+year = 2024
+start = "2024-05-13"
+end = "2024-05-20"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Open World Survival Crafting Fest"
+name_zh = "開放世界生存製作節"
+kind = "themed"
+year = 2024
+start = "2024-05-27"
+end = "2024-06-03"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Fighting Games Fest"
+name_zh = "格鬥遊戲節"
+kind = "themed"
+year = 2024
+start = "2024-07-15"
+end = "2024-07-22"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/4225021101233444836"
+confidence = "official"
+note = "Moved from the scheduled Aug 5–12. Valve's live post says \"on now through July 22nd\"."
+
+[[sale]]
+name = "Steam Tower Defense Fest"
+name_zh = "塔防遊戲節"
+kind = "themed"
+year = 2024
+start = "2024-07-29"
+end = "2024-08-05"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "\"August 5th at 10am Pacific\""
+
+[[sale]]
+name = "Steam Rhythm Fest"
+name_zh = "節奏遊戲節"
+kind = "themed"
+year = 2024
+start = "2024-08-19"
+end = "2024-08-26"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "\"August 26th at 10am PT\""
+
+[[sale]]
+name = "Steam Space Exploration Fest"
+name_zh = "太空探索節"
+kind = "themed"
+year = 2024
+start = "2024-09-02"
+end = "2024-09-09"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Planes, Trains, and Automobiles Fest"
+name_zh = "飛機、火車與汽車節"
+kind = "themed"
+year = 2024
+start = "2024-09-16"
+end = "2024-09-23"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Turn-based RPG Fest"
+name_zh = "回合制 RPG 節"
+kind = "themed"
+year = 2024
+start = "2024-09-30"
+end = "2024-10-07"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Cooking Fest"
+name_zh = "烹飪遊戲節"
+kind = "themed"
+year = 2024
+start = "2024-11-11"
+end = "2024-11-18"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/3970553774441642999"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Real-Time Strategy Fest"
+name_zh = "即時戰略節"
+kind = "themed"
+year = 2025
+start = "2025-01-20"
+end = "2025-01-27"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Idler Fest"
+name_zh = "放置遊戲節"
+kind = "themed"
+year = 2025
+start = "2025-02-03"
+end = "2025-02-10"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Couch Co-Op Fest"
+name_zh = "同樂合作節"
+kind = "themed"
+year = 2025
+start = "2025-02-10"
+end = "2025-02-17"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Visual Novel Fest"
+name_zh = "視覺小說節"
+kind = "themed"
+year = 2025
+start = "2025-03-03"
+end = "2025-03-10"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam City Builder & Colony Sim Fest"
+name_zh = "城市建造與殖民模擬節"
+kind = "themed"
+year = 2025
+start = "2025-03-24"
+end = "2025-03-31"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Sokoban Fest"
+name_zh = "推箱子節"
+kind = "themed"
+year = 2025
+start = "2025-04-21"
+end = "2025-04-28"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Wargames Fest"
+name_zh = "兵棋遊戲節"
+kind = "themed"
+year = 2025
+start = "2025-04-28"
+end = "2025-05-05"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Creature Collector Fest"
+name_zh = "生物收集節"
+kind = "themed"
+year = 2025
+start = "2025-05-12"
+end = "2025-05-19"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Zombies vs. Vampires Fest"
+name_zh = "殭屍對吸血鬼節"
+kind = "themed"
+year = 2025
+start = "2025-05-26"
+end = "2025-06-02"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Fishing Fest"
+name_zh = "釣魚遊戲節"
+kind = "themed"
+year = 2025
+start = "2025-06-16"
+end = "2025-06-23"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/4264427597939246984"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Automation Fest"
+name_zh = "自動化遊戲節"
+kind = "themed"
+year = 2025
+start = "2025-07-14"
+end = "2025-07-21"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/497187349280587904"
+confidence = "official"
+note = "\"through July 21st at 10am Pacific\". Valve's live post is dated 07-16."
+
+[[sale]]
+name = "Steam Racing Fest"
+name_zh = "賽車節"
+kind = "themed"
+year = 2025
+start = "2025-07-28"
+end = "2025-08-04"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/497187349280587904"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam 4X Fest"
+name_zh = "4X 策略節"
+kind = "themed"
+year = 2025
+start = "2025-08-11"
+end = "2025-08-18"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/497187349280587904"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Third Person Shooter Fest"
+name_zh = "第三人稱射擊節"
+kind = "themed"
+year = 2025
+start = "2025-08-25"
+end = "2025-09-01"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/497187349280587904"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Political Sim Fest"
+name_zh = "政治模擬節"
+kind = "themed"
+year = 2025
+start = "2025-09-08"
+end = "2025-09-15"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/497187349280587904"
+confidence = "official"
+note = "10:00 PT convention. It ran as scheduled (Steam Promotions post)."
+
+[[sale]]
+name = "Steam Animal Fest"
+name_zh = "動物遊戲節"
+kind = "themed"
+year = 2025
+start = "2025-11-10"
+end = "2025-11-17"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/497187349280587904"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Sports Fest"
+name_zh = "運動遊戲節"
+kind = "themed"
+year = 2025
+start = "2025-12-08"
+end = "2025-12-15"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/497187349280587904"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Detective Fest"
+name_zh = "偵探遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-01-12"
+end = "2026-01-19"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Board Game Fest"
+name_zh = "桌上遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-01-26"
+end = "2026-02-02"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Typing Fest"
+name_zh = "打字遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-02-05"
+end = "2026-02-09"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention. Spotlight fests are shorter."
+
+[[sale]]
+name = "Steam PvP Fest"
+name_zh = "PvP 對戰節"
+kind = "themed"
+year = 2026
+start = "2026-02-09"
+end = "2026-02-16"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Horse Fest"
+name_zh = "馬匹遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-02-19"
+end = "2026-02-23"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Tower Defense Fest"
+name_zh = "塔防遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-03-09"
+end = "2026-03-16"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "\"through March 16th at 10 a.m. Pacific\""
+
+[[sale]]
+name = "Steam House & Home Fest"
+name_zh = "居家遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-03-30"
+end = "2026-04-06"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Hidden Object Fest"
+name_zh = "尋物遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-04-09"
+end = "2026-04-13"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Medieval Fest"
+name_zh = "中世紀遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-04-20"
+end = "2026-04-27"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Deckbuilders Fest"
+name_zh = "牌組構築節"
+kind = "themed"
+year = 2026
+start = "2026-05-04"
+end = "2026-05-11"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Ocean Fest"
+name_zh = "海洋遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-05-18"
+end = "2026-05-25"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Bullet Fest"
+name_zh = "彈幕/子彈遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-06-08"
+end = "2026-06-15"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Social Deduction Fest"
+name_zh = "社交推理節"
+kind = "themed"
+year = 2026
+start = "2026-07-13"
+end = "2026-07-16"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/493837645658461608"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Train Fest"
+name_zh = "火車遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-07-20"
+end = "2026-07-27"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Cyberpunk Fest"
+name_zh = "賽博龐克節"
+kind = "themed"
+year = 2026
+start = "2026-08-03"
+end = "2026-08-10"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Pins & Pegs Fest"
+name_zh = "彈珠與釘板節"
+kind = "themed"
+year = 2026
+start = "2026-08-17"
+end = "2026-08-20"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam PvE Survival Crafting Fest"
+name_zh = "PvE 生存製作節"
+kind = "themed"
+year = 2026
+start = "2026-08-31"
+end = "2026-09-07"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Programming Fest"
+name_zh = "程式設計遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-09-10"
+end = "2026-09-14"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Party-Based RPG Fest"
+name_zh = "小隊 RPG 節"
+kind = "themed"
+year = 2026
+start = "2026-09-14"
+end = "2026-09-21"
+status = "ended"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Cooking Fest"
+name_zh = "烹飪遊戲節"
+kind = "themed"
+year = 2026
+start = "2026-10-12"
+end = "2026-10-19"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Auto-Battler RPG Fest"
+name_zh = "自走棋 RPG 節"
+kind = "themed"
+year = 2026
+start = "2026-11-16"
+end = "2026-11-23"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Desktop Companion Fest"
+name_zh = "桌面陪伴節"
+kind = "themed"
+year = 2027
+start = "2027-01-14"
+end = "2027-01-18"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Shop Keeper Fest"
+name_zh = "經營商店節"
+kind = "themed"
+year = 2027
+start = "2027-01-25"
+end = "2027-02-01"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Sheep Fest"
+name_zh = "綿羊節"
+kind = "themed"
+year = 2027
+start = "2027-02-04"
+end = "2027-02-08"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Couch Co-Op Fest"
+name_zh = "同樂合作節"
+kind = "themed"
+year = 2027
+start = "2027-02-08"
+end = "2027-02-15"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Rhythm Fest"
+name_zh = "節奏遊戲節"
+kind = "themed"
+year = 2027
+start = "2027-03-08"
+end = "2027-03-15"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Dinos vs. Robots Fest"
+name_zh = "恐龍對機器人節"
+kind = "themed"
+year = 2027
+start = "2027-03-29"
+end = "2027-04-05"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Racing Fest"
+name_zh = "賽車節"
+kind = "themed"
+year = 2027
+start = "2027-04-12"
+end = "2027-04-19"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Witch Fest"
+name_zh = "女巫節"
+kind = "themed"
+year = 2027
+start = "2027-04-22"
+end = "2027-04-26"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Fighting Fest"
+name_zh = "格鬥遊戲節"
+kind = "themed"
+year = 2027
+start = "2027-04-26"
+end = "2027-05-03"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Real-Time Strategy Fest"
+name_zh = "即時戰略節"
+kind = "themed"
+year = 2027
+start = "2027-05-10"
+end = "2027-05-17"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"
+
+[[sale]]
+name = "Steam Mountaineering Fest"
+name_zh = "登山遊戲節"
+kind = "themed"
+year = 2027
+start = "2027-05-31"
+end = "2027-06-03"
+status = "announced"
+source = "https://steamcommunity.com/groups/steamworks/announcements/detail/668369251018480125"
+confidence = "official"
+note = "10:00 PT convention"

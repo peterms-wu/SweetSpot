@@ -1,0 +1,246 @@
+[
+ {
+  "id": "018d937e-f835-710c-b95b-928e277b187e",
+  "historyLow": {
+   "all": {
+    "amount": 199,
+    "amountInt": 19900,
+    "currency": "TWD"
+   },
+   "y1": {
+    "amount": 199,
+    "amountInt": 19900,
+    "currency": "TWD"
+   },
+   "m3": {
+    "amount": 238,
+    "amountInt": 23800,
+    "currency": "TWD"
+   }
+  },
+  "deals": [
+   {
+    "shop": {
+     "id": 61,
+     "name": "Steam"
+    },
+    "price": {
+     "amount": 398,
+     "amountInt": 39800,
+     "currency": "TWD"
+    },
+    "regular": {
+     "amount": 398,
+     "amountInt": 39800,
+     "currency": "TWD"
+    },
+    "cut": 0,
+    "voucher": null,
+    "storeLow": {
+     "amount": 199,
+     "amountInt": 19900,
+     "currency": "TWD"
+    },
+    "flag": null,
+    "drm": [],
+    "platforms": [
+     {
+      "id": 1,
+      "name": "Windows"
+     },
+     {
+      "id": 2,
+      "name": "Mac"
+     },
+     {
+      "id": 3,
+      "name": "Linux"
+     }
+    ],
+    "timestamp": "2026-07-09T19:28:34+02:00",
+    "expiry": null,
+    "url": "https://itad.link/018d9386-d141-7169-a0af-3349e75c3cb7/?app=op6n8c"
+   }
+  ]
+ },
+ {
+  "id": "018d937f-012f-73b8-ab2c-898516969e6a",
+  "historyLow": {
+   "all": {
+    "amount": 37,
+    "amountInt": 3700,
+    "currency": "TWD"
+   },
+   "y1": {
+    "amount": 37,
+    "amountInt": 3700,
+    "currency": "TWD"
+   },
+   "m3": {
+    "amount": 37,
+    "amountInt": 3700,
+    "currency": "TWD"
+   }
+  },
+  "deals": [
+   {
+    "shop": {
+     "id": 61,
+     "name": "Steam"
+    },
+    "price": {
+     "amount": 188,
+     "amountInt": 18800,
+     "currency": "TWD"
+    },
+    "regular": {
+     "amount": 188,
+     "amountInt": 18800,
+     "currency": "TWD"
+    },
+    "cut": 0,
+    "voucher": null,
+    "storeLow": {
+     "amount": 37,
+     "amountInt": 3700,
+     "currency": "TWD"
+    },
+    "flag": null,
+    "drm": [],
+    "platforms": [
+     {
+      "id": 1,
+      "name": "Windows"
+     },
+     {
+      "id": 3,
+      "name": "Linux"
+     }
+    ],
+    "timestamp": "2026-07-09T19:20:33+02:00",
+    "expiry": null,
+    "url": "https://itad.link/018d9386-7132-719b-89e1-e11b8c591ee7/?app=op6n8c"
+   }
+  ]
+ },
+ {
+  "id": "018d937f-21e1-728e-86d7-9acb3c59f2bb",
+  "historyLow": {
+   "all": {
+    "amount": 18,
+    "amountInt": 1800,
+    "currency": "TWD"
+   },
+   "y1": {
+    "amount": 37,
+    "amountInt": 3700,
+    "currency": "TWD"
+   },
+   "m3": {
+    "amount": 37,
+    "amountInt": 3700,
+    "currency": "TWD"
+   }
+  },
+  "deals": [
+   {
+    "shop": {
+     "id": 61,
+     "name": "Steam"
+    },
+    "price": {
+     "amount": 188,
+     "amountInt": 18800,
+     "currency": "TWD"
+    },
+    "regular": {
+     "amount": 188,
+     "amountInt": 18800,
+     "currency": "TWD"
+    },
+    "cut": 0,
+    "voucher": null,
+    "storeLow": {
+     "amount": 18,
+     "amountInt": 1800,
+     "currency": "TWD"
+    },
+    "flag": null,
+    "drm": [],
+    "platforms": [
+     {
+      "id": 1,
+      "name": "Windows"
+     },
+     {
+      "id": 3,
+      "name": "Linux"
+     }
+    ],
+    "timestamp": "2026-07-09T19:20:33+02:00",
+    "expiry": null,
+    "url": "https://itad.link/018d9386-b04c-7082-93ee-cf4eb9246544/?app=op6n8c"
+   }
+  ]
+ },
+ {
+  "id": "018d937f-33f0-7200-80fc-87f769196c84",
+  "historyLow": {
+   "all": {
+    "amount": 102,
+    "amountInt": 10200,
+    "currency": "TWD"
+   },
+   "y1": {
+    "amount": 102,
+    "amountInt": 10200,
+    "currency": "TWD"
+   },
+   "m3": {
+    "amount": 102,
+    "amountInt": 10200,
+    "currency": "TWD"
+   }
+  },
+  "deals": [
+   {
+    "shop": {
+     "id": 61,
+     "name": "Steam"
+    },
+    "price": {
+     "amount": 408,
+     "amountInt": 40800,
+     "currency": "TWD"
+    },
+    "regular": {
+     "amount": 408,
+     "amountInt": 40800,
+     "currency": "TWD"
+    },
+    "cut": 0,
+    "voucher": null,
+    "storeLow": {
+     "amount": 102,
+     "amountInt": 10200,
+     "currency": "TWD"
+    },
+    "flag": null,
+    "drm": [],
+    "platforms": [
+     {
+      "id": 1,
+      "name": "Windows"
+     },
+     {
+      "id": 2,
+      "name": "Mac"
+     }
+    ],
+    "timestamp": "2026-07-27T19:38:38+02:00",
+    "expiry": null,
+    "url": "https://itad.link/018d9386-712c-707d-bd4d-e2329c84b026/?app=op6n8c"
+   }
+  ]
+ }
+]

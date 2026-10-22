@@ -1,0 +1,46 @@
+{
+ "response": {
+  "store_items": [
+   {
+    "item_type": 0,
+    "id": 457680,
+    "success": 1,
+    "appid": 457680,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 99384,
+     "purchase_option_name": "OPUS：地球計畫",
+     "final_price_in_cents": "30000",
+     "included_game_count": 1
+    },
+    "name": "OPUS：地球計畫"
+   },
+   {
+    "item_type": 0,
+    "id": 742250,
+    "success": 1,
+    "appid": 742250,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 217468,
+     "purchase_option_name": "OPUS：靈魂之橋",
+     "final_price_in_cents": "30000",
+     "included_game_count": 1
+    },
+    "name": "OPUS：靈魂之橋"
+   },
+   {
+    "item_type": 0,
+    "id": 999001,
+    "success": 1,
+    "appid": 999001,
+    "type": 0
+   },
+   {
+    "item_type": 0,
+    "id": 999002,
+    "success": 2
+   }
+  ]
+ }
+}

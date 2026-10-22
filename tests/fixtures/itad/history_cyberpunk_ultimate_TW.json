@@ -1,0 +1,162 @@
+[
+ {
+  "timestamp": "2026-06-26T17:05:00+00:00",
+  "shop": {
+   "id": 61,
+   "name": "Steam"
+  },
+  "deal": {
+   "price": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "regular": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "cut": 0
+  }
+ },
+ {
+  "timestamp": "2026-06-25T17:10:00+00:00",
+  "shop": {
+   "id": 61,
+   "name": "Steam"
+  },
+  "deal": {
+   "price": {
+    "amount": 882.0,
+    "amountInt": 88200,
+    "currency": "TWD"
+   },
+   "regular": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "cut": 60
+  }
+ },
+ {
+  "timestamp": "2026-03-26T17:02:00+00:00",
+  "shop": {
+   "id": 61,
+   "name": "Steam"
+  },
+  "deal": {
+   "price": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "regular": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "cut": 0
+  }
+ },
+ {
+  "timestamp": "2026-03-19T17:03:00+00:00",
+  "shop": {
+   "id": 61,
+   "name": "Steam"
+  },
+  "deal": {
+   "price": {
+    "amount": 1103.0,
+    "amountInt": 110300,
+    "currency": "TWD"
+   },
+   "regular": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "cut": 50
+  }
+ },
+ {
+  "timestamp": "2025-12-19T18:00:00+00:00",
+  "shop": {
+   "id": 61,
+   "name": "Steam"
+  },
+  "deal": {
+   "price": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "regular": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "cut": 0
+  }
+ },
+ {
+  "timestamp": "2025-12-18T18:01:00+00:00",
+  "shop": {
+   "id": 61,
+   "name": "Steam"
+  },
+  "deal": {
+   "price": {
+    "amount": 1103.0,
+    "amountInt": 110300,
+    "currency": "TWD"
+   },
+   "regular": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "cut": 50
+  }
+ },
+ {
+  "timestamp": "2025-06-26T17:00:00+00:00",
+  "shop": {
+   "id": 61,
+   "name": "Steam"
+  },
+  "deal": {
+   "price": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "regular": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "cut": 0
+  }
+ },
+ {
+  "timestamp": "2024-12-11T15:09:33+00:00",
+  "shop": {
+   "id": 61,
+   "name": "Steam"
+  },
+  "deal": {
+   "price": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "regular": {
+    "amount": 2206.0,
+    "amountInt": 220600,
+    "currency": "TWD"
+   },
+   "cut": 0
+  }
+ }
+]

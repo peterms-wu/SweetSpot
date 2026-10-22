@@ -1,0 +1,410 @@
+{
+ "response": {
+  "store_items": [
+   {
+    "item_type": 0,
+    "id": 239140,
+    "success": 1,
+    "name": "Dying Light",
+    "appid": 239140,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 1345940,
+     "purchase_option_name": "Dying Light Essentials Edition",
+     "final_price_in_cents": "13400",
+     "original_price_in_cents": "67000",
+     "discount_pct": 80,
+     "included_game_count": 1
+    },
+    "purchase_options": [
+     {
+      "packageid": 1345940,
+      "purchase_option_name": "Dying Light Essentials Edition",
+      "final_price_in_cents": "13400",
+      "original_price_in_cents": "67000",
+      "discount_pct": 80,
+      "included_game_count": 1
+     },
+     {
+      "packageid": 1265945,
+      "purchase_option_name": "Dying Light: Definitive 10th Anniversary Edition",
+      "final_price_in_cents": "14900",
+      "original_price_in_cents": "74900",
+      "discount_pct": 80,
+      "included_game_count": 1
+     },
+     {
+      "bundleid": 49425,
+      "purchase_option_name": "Dying Light Collection",
+      "final_price_in_cents": "51300",
+      "original_price_in_cents": "256500",
+      "discount_pct": 80,
+      "included_game_count": 2
+     },
+     {
+      "bundleid": 72968,
+      "purchase_option_name": "The Kyle Crane Collection",
+      "final_price_in_cents": "95400",
+      "original_price_in_cents": "229800",
+      "discount_pct": 58,
+      "included_game_count": 2
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 9500003,
+    "success": 1,
+    "name": "範例分季作品 - Season 1",
+    "appid": 9500003,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 9900011,
+     "purchase_option_name": "範例分季作品",
+     "final_price_in_cents": "5600",
+     "original_price_in_cents": "22600",
+     "discount_pct": 75,
+     "included_game_count": 1
+    },
+    "purchase_options": [
+     {
+      "packageid": 9900011,
+      "purchase_option_name": "範例分季作品",
+      "final_price_in_cents": "5600",
+      "original_price_in_cents": "22600",
+      "discount_pct": 75,
+      "included_game_count": 1
+     },
+     {
+      "bundleid": 99003,
+      "purchase_option_name": "範例分季作品",
+      "final_price_in_cents": "17100",
+      "original_price_in_cents": "40600",
+      "discount_pct": 58,
+      "included_game_count": 2
+     },
+     {
+      "bundleid": 99001,
+      "purchase_option_name": "Great Adult Visual Novels",
+      "final_price_in_cents": "27300",
+      "original_price_in_cents": "42600",
+      "discount_pct": 36,
+      "included_game_count": 2
+     },
+     {
+      "bundleid": 99002,
+      "purchase_option_name": "Adventure Adult Visual Novels",
+      "final_price_in_cents": "46100",
+      "original_price_in_cents": "61400",
+      "discount_pct": 25,
+      "included_game_count": 3
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 1402110,
+    "success": 1,
+    "name": "Eternights",
+    "appid": 1402110,
+    "type": 0,
+    "best_purchase_option": {
+     "bundleid": 36647,
+     "purchase_option_name": "Deformed Monsters Bundle",
+     "final_price_in_cents": "76100",
+     "original_price_in_cents": "122300",
+     "discount_pct": 38,
+     "included_game_count": 2
+    },
+    "purchase_options": [
+     {
+      "bundleid": 36647,
+      "purchase_option_name": "Deformed Monsters Bundle",
+      "final_price_in_cents": "76100",
+      "original_price_in_cents": "122300",
+      "discount_pct": 38,
+      "included_game_count": 2
+     },
+     {
+      "packageid": 492077,
+      "purchase_option_name": "Eternights",
+      "final_price_in_cents": "79000",
+      "included_game_count": 1
+     },
+     {
+      "packageid": 874282,
+      "purchase_option_name": "Eternights Deluxe Edition",
+      "final_price_in_cents": "99000",
+      "included_game_count": 1
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 1091500,
+    "success": 1,
+    "name": "Cyberpunk 2077",
+    "appid": 1091500,
+    "type": 0,
+    "purchase_options": [
+     {
+      "packageid": 367653,
+      "purchase_option_name": "Cyberpunk 2077",
+      "final_price_in_cents": "159900",
+      "included_game_count": 1
+     },
+     {
+      "bundleid": 32470,
+      "purchase_option_name": "《電馭叛客 2077：終極版》",
+      "final_price_in_cents": "220600",
+      "included_game_count": 1,
+      "bundle_discount_pct": 8,
+      "price_before_bundle_discount": "239800"
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 812140,
+    "success": 1,
+    "name": "Assassin's Creed® Odyssey",
+    "appid": 812140,
+    "type": 0,
+    "purchase_options": [
+     {
+      "packageid": 349018,
+      "purchase_option_name": "Assassin's Creed Odyssey - Standard Edition",
+      "final_price_in_cents": "33900",
+      "included_game_count": 1,
+      "original_price_in_cents": "169900",
+      "discount_pct": 80
+     },
+     {
+      "packageid": 349019,
+      "purchase_option_name": "Assassin's Creed Odyssey - Deluxe Edition",
+      "final_price_in_cents": "42500",
+      "included_game_count": 1,
+      "original_price_in_cents": "212500",
+      "discount_pct": 80
+     },
+     {
+      "packageid": 349028,
+      "purchase_option_name": "Assassin's Creed Odyssey - Gold Edition",
+      "final_price_in_cents": "56500",
+      "included_game_count": 1,
+      "original_price_in_cents": "282900",
+      "discount_pct": 80
+     },
+     {
+      "packageid": 349020,
+      "purchase_option_name": "Assassin's Creed Odyssey - Ultimate Edition",
+      "final_price_in_cents": "65100",
+      "included_game_count": 1,
+      "original_price_in_cents": "325900",
+      "discount_pct": 80
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 1903340,
+    "success": 1,
+    "name": "光與影：33號遠征隊",
+    "appid": 1903340,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 685434,
+     "purchase_option_name": "光與影：33號遠征隊",
+     "final_price_in_cents": "79000",
+     "original_price_in_cents": "98800",
+     "discount_pct": 20,
+     "included_game_count": 1
+    },
+    "purchase_options": [
+     {
+      "packageid": 685434,
+      "purchase_option_name": "光與影：33號遠征隊",
+      "final_price_in_cents": "79000",
+      "original_price_in_cents": "98800",
+      "discount_pct": 20,
+      "included_game_count": 1
+     },
+     {
+      "packageid": 1218615,
+      "purchase_option_name": "光與影：33號遠征隊 豪華版",
+      "final_price_in_cents": "118000",
+      "included_game_count": 1
+     },
+     {
+      "bundleid": 74895,
+      "purchase_option_name": "Clair Obscur: Expedition 33 x Dispatch",
+      "final_price_in_cents": "115000",
+      "original_price_in_cents": "132800",
+      "discount_pct": 13,
+      "bundle_discount_pct": 10,
+      "price_before_bundle_discount": "147600",
+      "included_game_count": 2
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 2592160,
+    "success": 1,
+    "name": "Dispatch 超英派遣中心",
+    "appid": 2592160,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 930435,
+     "purchase_option_name": "Dispatch（超英派遣中心）",
+     "final_price_in_cents": "48800",
+     "included_game_count": 1
+    },
+    "purchase_options": [
+     {
+      "packageid": 930435,
+      "purchase_option_name": "Dispatch（超英派遣中心）",
+      "final_price_in_cents": "48800",
+      "included_game_count": 1
+     },
+     {
+      "packageid": 1442819,
+      "purchase_option_name": "Dispatch（超英派遣中心）：數位豪華版",
+      "final_price_in_cents": "59900",
+      "included_game_count": 1
+     },
+     {
+      "bundleid": 74895,
+      "purchase_option_name": "Clair Obscur: Expedition 33 x Dispatch",
+      "final_price_in_cents": "115000",
+      "original_price_in_cents": "132800",
+      "discount_pct": 13,
+      "bundle_discount_pct": 10,
+      "price_before_bundle_discount": "147600",
+      "included_game_count": 2
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 1868140,
+    "success": 1,
+    "name": "潛水員戴夫 DAVE THE DIVER",
+    "appid": 1868140,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 672152,
+     "purchase_option_name": "DAVE THE DIVER",
+     "final_price_in_cents": "35000",
+     "included_game_count": 1
+    },
+    "purchase_options": [
+     {
+      "packageid": 672152,
+      "purchase_option_name": "DAVE THE DIVER",
+      "final_price_in_cents": "35000",
+      "included_game_count": 1
+     },
+     {
+      "bundleid": 77855,
+      "purchase_option_name": "DAVE THE DIVER x MiSide",
+      "final_price_in_cents": "55600",
+      "bundle_discount_pct": 10,
+      "price_before_bundle_discount": "61800",
+      "included_game_count": 2
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 2527500,
+    "success": 1,
+    "name": "MiSide",
+    "appid": 2527500,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 908317,
+     "purchase_option_name": "MiSide",
+     "final_price_in_cents": "26800",
+     "included_game_count": 1
+    },
+    "purchase_options": [
+     {
+      "packageid": 908317,
+      "purchase_option_name": "MiSide",
+      "final_price_in_cents": "26800",
+      "included_game_count": 1
+     },
+     {
+      "bundleid": 77855,
+      "purchase_option_name": "DAVE THE DIVER x MiSide",
+      "final_price_in_cents": "55600",
+      "bundle_discount_pct": 10,
+      "price_before_bundle_discount": "61800",
+      "included_game_count": 2
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 1504500,
+    "success": 1,
+    "name": "OPUS：龍脈常歌 -最終版-",
+    "appid": 1504500,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 530476,
+     "purchase_option_name": "OPUS：龍脈常歌 -最終版-",
+     "final_price_in_cents": "49000",
+     "included_game_count": 1
+    },
+    "purchase_options": [
+     {
+      "packageid": 530476,
+      "purchase_option_name": "OPUS：龍脈常歌 -最終版-",
+      "final_price_in_cents": "49000",
+      "included_game_count": 1
+     },
+     {
+      "bundleid": 74673,
+      "purchase_option_name": "OPUS系列遊戲同捆版",
+      "final_price_in_cents": "135000",
+      "bundle_discount_pct": 15,
+      "price_before_bundle_discount": "158900",
+      "included_game_count": 4
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 1947910,
+    "success": 1,
+    "name": "OPUS：心相吾山",
+    "appid": 1947910,
+    "type": 0,
+    "best_purchase_option": {
+     "packageid": 702300,
+     "purchase_option_name": "OPUS：心相吾山",
+     "final_price_in_cents": "49900",
+     "included_game_count": 1
+    },
+    "purchase_options": [
+     {
+      "packageid": 702300,
+      "purchase_option_name": "OPUS：心相吾山",
+      "final_price_in_cents": "49900",
+      "included_game_count": 1
+     },
+     {
+      "bundleid": 74673,
+      "purchase_option_name": "OPUS系列遊戲同捆版",
+      "final_price_in_cents": "135000",
+      "bundle_discount_pct": 15,
+      "price_before_bundle_discount": "158900",
+      "included_game_count": 4
+     }
+    ]
+   }
+  ]
+ }
+}

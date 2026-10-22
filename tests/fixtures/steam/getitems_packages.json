@@ -1,0 +1,257 @@
+{
+ "response": {
+  "store_items": [
+   {
+    "item_type": 1,
+    "id": 7877,
+    "success": 1,
+    "visible": true,
+    "name": "Portal 2",
+    "store_url_path": "app/620/Portal_2",
+    "store_url_slug": "Portal_2",
+    "appid": 620,
+    "type": 0,
+    "included_types": [
+     0
+    ],
+    "included_appids": [
+     620
+    ],
+    "categories": {
+     "supported_player_categoryids": [
+      2,
+      1,
+      9,
+      38,
+      39,
+      24
+     ],
+     "feature_categoryids": [
+      22,
+      29,
+      13,
+      30,
+      51,
+      67,
+      68,
+      69,
+      70,
+      74,
+      79,
+      23,
+      15,
+      17,
+      14,
+      41,
+      42,
+      43,
+      44,
+      62
+     ],
+     "controller_categoryids": [
+      28,
+      55,
+      56,
+      57,
+      58,
+      59
+     ]
+    },
+    "basic_info": {
+     "publishers": [
+      {
+       "name": "Valve",
+       "creator_clan_account_id": 4
+      }
+     ],
+     "developers": [
+      {
+       "name": "Valve",
+       "creator_clan_account_id": 4
+      }
+     ],
+     "franchises": [
+      {
+       "name": "Portal"
+      }
+     ]
+    },
+    "best_purchase_option": {
+     "packageid": 7877,
+     "purchase_option_name": "Portal 2",
+     "final_price_in_cents": "18800",
+     "formatted_final_price": "NT$ 188.00",
+     "user_can_purchase_as_gift": true,
+     "hide_discount_pct_for_compliance": false,
+     "included_game_count": 1,
+     "must_purchase_as_set": false,
+     "package_group": "default",
+     "price_cannot_be_displayed_as_discount": false
+    }
+   },
+   {
+    "item_type": 1,
+    "id": 36,
+    "success": 1,
+    "visible": true,
+    "name": "Half-Life 2",
+    "store_url_path": "app/220/HalfLife_2",
+    "store_url_slug": "HalfLife_2",
+    "appid": 220,
+    "type": 0,
+    "included_types": [
+     0
+    ],
+    "included_appids": [
+     220
+    ],
+    "content_descriptorids": [
+     2,
+     5
+    ],
+    "categories": {
+     "supported_player_categoryids": [
+      2
+     ],
+     "feature_categoryids": [
+      22,
+      29,
+      13,
+      30,
+      65,
+      67,
+      68,
+      69,
+      70,
+      74,
+      78,
+      79,
+      23,
+      16,
+      14,
+      41,
+      42,
+      44,
+      62,
+      63
+     ],
+     "controller_categoryids": [
+      28,
+      55,
+      56,
+      57,
+      58,
+      59
+     ]
+    },
+    "basic_info": {
+     "publishers": [
+      {
+       "name": "Valve",
+       "creator_clan_account_id": 4
+      }
+     ],
+     "developers": [
+      {
+       "name": "Valve",
+       "creator_clan_account_id": 4
+      }
+     ],
+     "franchises": [
+      {
+       "name": "Half-Life",
+       "creator_clan_account_id": 33078398
+      }
+     ]
+    },
+    "best_purchase_option": {
+     "packageid": 36,
+     "purchase_option_name": "Half-Life 2",
+     "final_price_in_cents": "18800",
+     "formatted_final_price": "NT$ 188.00",
+     "user_can_purchase_as_gift": true,
+     "hide_discount_pct_for_compliance": false,
+     "included_game_count": 1,
+     "must_purchase_as_set": false,
+     "package_group": "default",
+     "price_cannot_be_displayed_as_discount": false
+    }
+   },
+   {
+    "item_type": 1,
+    "id": 1187613,
+    "success": 15,
+    "visible": false,
+    "name": "",
+    "store_url_path": "sub/1187613/",
+    "store_url_slug": ""
+   },
+   {
+    "item_type": 1,
+    "id": 1187615,
+    "success": 15,
+    "visible": false,
+    "name": "Half-Life 2 Limited Free Promotional Package - Nov 2024",
+    "store_url_path": "app/220/HalfLife_2",
+    "store_url_slug": "HalfLife_2_Limited_Free_Promotional_Package_Nov_2024",
+    "appid": 220
+   },
+   {
+    "item_type": 1,
+    "id": 17798,
+    "success": 1,
+    "visible": true,
+    "name": "Divinity Anthology",
+    "store_url_path": "sub/17798/",
+    "store_url_slug": "Divinity_Anthology",
+    "type": 0,
+    "included_types": [
+     0
+    ],
+    "included_appids": [
+     219780,
+     214170,
+     219760
+    ],
+    "categories": {
+     "supported_player_categoryids": [
+      2
+     ],
+     "feature_categoryids": [
+      62
+     ]
+    },
+    "basic_info": {
+     "short_description": "Ten years in the making, the Divinity Anthology collects all games set in the acclaimed Divinity universe.",
+     "publishers": [
+      {
+       "name": "Focus Home Interactive"
+      },
+      {
+       "name": "Larian Studios",
+       "creator_clan_account_id": 6879350
+      }
+     ],
+     "developers": [
+      {
+       "name": "Larian Studios",
+       "creator_clan_account_id": 6879350
+      }
+     ]
+    },
+    "best_purchase_option": {
+     "packageid": 17798,
+     "purchase_option_name": "Divinity Anthology",
+     "final_price_in_cents": "68800",
+     "formatted_final_price": "NT$ 688.00",
+     "user_can_purchase_as_gift": true,
+     "hide_discount_pct_for_compliance": false,
+     "included_game_count": 3,
+     "must_purchase_as_set": false,
+     "package_group": "default",
+     "price_cannot_be_displayed_as_discount": false
+    }
+   }
+  ]
+ }
+}

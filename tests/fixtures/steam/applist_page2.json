@@ -1,0 +1,38 @@
+{
+ "response": {
+  "apps": [
+   {
+    "appid": 60,
+    "name": "Ricochet",
+    "last_modified": 1745368568,
+    "price_change_number": 37149137
+   },
+   {
+    "appid": 70,
+    "name": "Half-Life",
+    "last_modified": 1745368462,
+    "price_change_number": 37149137
+   },
+   {
+    "appid": 80,
+    "name": "Counter-Strike: Condition Zero",
+    "last_modified": 1745368574,
+    "price_change_number": 37149137
+   },
+   {
+    "appid": 130,
+    "name": "Half-Life: Blue Shift",
+    "last_modified": 1745368541,
+    "price_change_number": 37149137
+   },
+   {
+    "appid": 220,
+    "name": "Half-Life 2",
+    "last_modified": 1745368545,
+    "price_change_number": 38162588
+   }
+  ],
+  "have_more_results": true,
+  "last_appid": 220
+ }
+}

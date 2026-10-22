@@ -1,0 +1,41 @@
+{
+ "620": {
+  "success": true,
+  "data": {
+   "price_overview": {
+    "currency": "TWD",
+    "initial": 18800,
+    "final": 18800,
+    "discount_percent": 0,
+    "initial_formatted": "",
+    "final_formatted": "NT$ 188"
+   }
+  }
+ },
+ "413150": {
+  "success": true,
+  "data": {
+   "price_overview": {
+    "currency": "TWD",
+    "initial": 39800,
+    "final": 39800,
+    "discount_percent": 0,
+    "initial_formatted": "",
+    "final_formatted": "NT$ 398"
+   }
+  }
+ },
+ "1145360": {
+  "success": true,
+  "data": {
+   "price_overview": {
+    "currency": "TWD",
+    "initial": 40800,
+    "final": 40800,
+    "discount_percent": 0,
+    "initial_formatted": "",
+    "final_formatted": "NT$ 408"
+   }
+  }
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "response": {
+  "store_items": [
+   {
+    "item_type": 0,
+    "id": 302101,
+    "success": 1,
+    "name": "Dying Light - Cuisine & Cargo",
+    "appid": 302101,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 325723,
+    "success": 1,
+    "name": "Dying Light - The Bozak Horde",
+    "appid": 325723,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 347090,
+    "success": 1,
+    "name": "Dying Light - Ultimate Survivor Bundle",
+    "appid": 347090,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 436080,
+    "success": 1,
+    "name": "Dying Light - Harran Ranger Bundle",
+    "appid": 436080,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 436081,
+    "success": 1,
+    "name": "Dying Light - Gun Psycho Bundle",
+    "appid": 436081,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 436082,
+    "success": 1,
+    "name": "Dying Light - Volatile Hunter Bundle",
+    "appid": 436082,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 1177880,
+    "success": 1,
+    "name": "Dying Light - Retrowave Bundle",
+    "appid": 1177880,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 1184350,
+    "success": 1,
+    "name": "Dying Light - Shu Warrior Bundle",
+    "appid": 1184350,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 1241570,
+    "success": 1,
+    "name": "Dying Light - 5th Anniversary Bundle",
+    "appid": 1241570,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 3454290,
+    "success": 1,
+    "name": "Dying Light - 10th Anniversary Bundle",
+    "appid": 3454290,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 239140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 534380,
+    "success": 1,
+    "name": "Dying Light 2 Stay Human: Reloaded Edition",
+    "appid": 534380,
+    "type": 0
+   }
+  ]
+ }
+}

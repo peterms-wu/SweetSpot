@@ -1,0 +1,215 @@
+{
+ "format": "steamsage.extension/1",
+ "generated_at": "2026-09-27T05:06:39Z",
+ "as_of": "2026-09-27T05:06:39Z",
+ "data_time": "2026-09-27T05:06:12Z",
+ "stale_hours": 26,
+ "lowest_label": "12 個月內最低",
+ "refresh_note": null,
+ "record": "20260927T050639Z.json.gz",
+ "config_path": "D:\\Tools\\SweetSpot\\sweetspot.toml",
+ "versions": {
+  "model": "seasonal-record 1.1.0",
+  "rule": "sweet-price 2.1.0"
+ },
+ "summary": {
+  "now": 1,
+  "soon": 0,
+  "wait": 1,
+  "low": 0,
+  "na": 1
+ },
+ "games": [
+  {
+   "app_id": 1903340,
+   "name": "光與影：33號遠征隊",
+   "group": "now",
+   "status_reason": null,
+   "price_twd": 790,
+   "cut_pct": 20,
+   "stale": false,
+   "sweet_twd": 790,
+   "sweet_pct": 20,
+   "point": {
+    "label": "2026 秋特",
+    "status": "announced",
+    "start": "2026-10-01T17:00:00Z",
+    "end": "2026-10-08T17:00:00Z"
+   },
+   "probability": 0.825835,
+   "p_min_twd": 692,
+   "p_min_pct": 30,
+   "tags": [],
+   "option": {
+    "kind": "sub",
+    "id": 685434,
+    "name": "Clair Obscur: Expedition 33",
+    "user": false
+   },
+   "version_text": null,
+   "editions": 1,
+   "bundle_hints": [
+    {
+     "id": 74895,
+     "text": "可和 Dispatch 超英派遣中心 一起買：組合包 −10%"
+    }
+   ],
+   "ns_reasons": [
+    "季節特賣以外降到甜蜜價以下的機率：30 天內 5%"
+   ],
+   "reasons": [
+    "第 1 個原因",
+    "第 2 個原因",
+    "第 3 個原因",
+    "第 4 個原因",
+    "第 5 個原因"
+   ],
+   "versions": [
+    {
+     "kind": "sub",
+     "id": 685434,
+     "name": "Clair Obscur: Expedition 33",
+     "price_twd": 790,
+     "cut_pct": 20,
+     "is_default": true,
+     "tracked": true,
+     "action": null,
+     "reason": null,
+     "manual": null
+    },
+    {
+     "kind": "sub",
+     "id": 777001,
+     "name": "Clair Obscur: Expedition 33 Deluxe",
+     "price_twd": 1190,
+     "cut_pct": 0,
+     "is_default": false,
+     "tracked": false,
+     "action": "choose",
+     "reason": null,
+     "manual": "1903340 = \"sub/777001\""
+    },
+    {
+     "kind": "sub",
+     "id": 777002,
+     "name": "Clair Obscur: Broken Bundle",
+     "price_twd": 990,
+     "cut_pct": 0,
+     "is_default": false,
+     "tracked": false,
+     "action": null,
+     "reason": "沒有 ITAD 的價格歷史，不能指定",
+     "manual": null
+    }
+   ]
+  },
+  {
+   "app_id": 1091500,
+   "name": "Cyberpunk 2077",
+   "group": "wait",
+   "status_reason": null,
+   "price_twd": 2206,
+   "cut_pct": 0,
+   "stale": false,
+   "sweet_twd": 772,
+   "sweet_pct": 65,
+   "point": {
+    "label": "2027 春特",
+    "status": "announced",
+    "start": "2027-03-18T17:00:00Z",
+    "end": "2027-03-25T17:00:00Z"
+   },
+   "probability": 0.53475,
+   "p_min_twd": 772,
+   "p_min_pct": 65,
+   "tags": [
+    "上限生效"
+   ],
+   "option": {
+    "kind": "bundle",
+    "id": 32470,
+    "name": "《電馭叛客 2077：終極版》",
+    "user": true
+   },
+   "version_text": "追蹤 《電馭叛客 2077：終極版》（使用者指定） · 歷史從 2024-12-11 起",
+   "editions": 1,
+   "bundle_hints": [],
+   "ns_reasons": [],
+   "reasons": [
+    "第 1 個原因",
+    "第 2 個原因",
+    "第 3 個原因"
+   ],
+   "versions": [
+    {
+     "kind": "bundle",
+     "id": 32470,
+     "name": "《電馭叛客 2077：終極版》",
+     "price_twd": 2206,
+     "cut_pct": 0,
+     "is_default": false,
+     "tracked": true,
+     "action": null,
+     "reason": null,
+     "manual": null
+    },
+    {
+     "kind": "sub",
+     "id": 367653,
+     "name": "Cyberpunk 2077",
+     "price_twd": 479,
+     "cut_pct": 70,
+     "is_default": true,
+     "tracked": false,
+     "action": "reset",
+     "reason": null,
+     "manual": "刪掉設定檔 [purchase_options] 中 1091500 那一行"
+    }
+   ]
+  },
+  {
+   "app_id": 9500013,
+   "name": "範例未發行遊戲",
+   "group": "na",
+   "status_reason": "尚未發行（預定 2026-11-20）",
+   "price_twd": null,
+   "cut_pct": null,
+   "stale": true,
+   "sweet_twd": null,
+   "sweet_pct": null,
+   "point": null,
+   "probability": null,
+   "p_min_twd": null,
+   "p_min_pct": null,
+   "tags": [],
+   "option": null,
+   "version_text": null,
+   "editions": 0,
+   "bundle_hints": [],
+   "ns_reasons": [],
+   "reasons": [],
+   "versions": []
+  }
+ ],
+ "bundles": [
+  {
+   "id": 74895,
+   "name": "Clair Obscur: Expedition 33 x Dispatch",
+   "grade_text": "只含願望清單遊戲",
+   "discount_text": "組合包 −10%",
+   "price_twd": 1150,
+   "lines": [
+    "現在：組合包 NT$1,150｜分開買 NT$1,278",
+    "任何一場季節特賣（最早 2026 秋特）：約 NT$1,063，同時到價 73%"
+   ],
+   "advice_text": "兩款都要買的話，2026 秋特買組合包：約 NT$1,063",
+   "advice_low": false,
+   "check_text": null,
+   "contents": [
+    "光與影：33號遠征隊",
+    "Dispatch 超英派遣中心"
+   ],
+   "owned_note": "價格以全部內容都未擁有計算"
+  }
+ ]
+}

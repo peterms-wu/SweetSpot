@@ -1,0 +1,29 @@
+[project]
+name = "sweetspot"
+version = "0.2.0"
+description = "Local Steam wishlist price data, discount forecasts and backtests for sweet-price decisions (TW/TWD)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28,<1",
+    "tzdata>=2025.2",
+]
+
+[project.scripts]
+sweetspot = "sweetspot.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+]
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sweetspot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

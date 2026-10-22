@@ -1,0 +1,52 @@
+# Claude Code — machine-local settings and credentials
+.claude/settings.local.json
+.claude/*.local.*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# SweetSpot local data (keep data/steam_sales.toml tracked)
+data/sweetspot.db*
+data/.lock
+data/.host.lock
+data/host/
+data/logs/
+sweetspot.toml
+data/pre-016-backup-*/
+# 舊名稱（016 改名前）的設定檔與資料庫：搬家前後都不能被誤加進版控，所以保留
+data/steamsage.db*
+steamsage.toml
+data/backtests/
+data/forecast*.json
+data/forecasts/
+data/reports/
+data/reviews/
+extension/data/

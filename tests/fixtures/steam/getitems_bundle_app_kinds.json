@@ -1,0 +1,97 @@
+{
+ "response": {
+  "store_items": [
+   {
+    "item_type": 0,
+    "id": 1091500,
+    "success": 1,
+    "visible": true,
+    "name": "Cyberpunk 2077",
+    "appid": 1091500,
+    "type": 0
+   },
+   {
+    "item_type": 0,
+    "id": 2138330,
+    "success": 1,
+    "visible": true,
+    "name": "《電馭叛客 2077：自由幻局》",
+    "appid": 2138330,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 1091500
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 1868140,
+    "success": 1,
+    "visible": true,
+    "name": "潛水員戴夫 DAVE THE DIVER",
+    "appid": 1868140,
+    "type": 0
+   },
+   {
+    "item_type": 0,
+    "id": 2492320,
+    "success": 1,
+    "visible": true,
+    "name": "潛水員戴夫 Digital Extra",
+    "appid": 2492320,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 1868140
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 2527500,
+    "success": 1,
+    "visible": true,
+    "name": "MiSide",
+    "appid": 2527500,
+    "type": 0
+   },
+   {
+    "item_type": 0,
+    "id": 941950,
+    "success": 1,
+    "visible": true,
+    "name": "Devil May Cry 5 - Alt Style Rank Announcers",
+    "appid": 941950,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 601150
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 941951,
+    "success": 1,
+    "visible": true,
+    "name": "Devil May Cry 5 - Alt Title Calls",
+    "appid": 941951,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 601150
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 457680,
+    "success": 1,
+    "appid": 457680,
+    "type": 0,
+    "related_items": {}
+   },
+   {
+    "item_type": 0,
+    "id": 742250,
+    "success": 1,
+    "appid": 742250,
+    "type": 0,
+    "related_items": {}
+   }
+  ]
+ }
+}

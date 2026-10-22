@@ -1,0 +1,413 @@
+# Steam seasonal sales that started 2012-01-01 .. before the 2019 Summer Sale.
+# Researched 2026-09-25. steamdb.info was not used. Main sources:
+#   - Valve's old Steam News archive at store.steampowered.com/oldnews/<id> (feeds steam_announce and steam_release).
+#   - Steam News app 593110 (for Winter 2018).
+# Date-only values mean 10:00 Pacific, following the file header. `end` is exclusive: prices return to normal at that time.
+# Ready to paste into data/steam_sales.toml in date order, before the 2019 Lunar New Year entry.
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2012
+start = "2012-07-12"
+end = "2012-07-23"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/8388"
+confidence = "official"
+note = "Valve: \"starts today and lasts through Monday, July 23rd, 2012\". Valve's \"FINAL DAY\" post is dated 07-22 and says the sale \"concludes today\" (https://store.steampowered.com/oldnews/8451), so the last full day was 07-22 and prices returned at 10:00 PDT on 07-23. A Wayback snapshot of the store at 2012-07-23 23:43 PDT shows no sale (https://web.archive.org/web/20120724064331/http://store.steampowered.com/). RPS also says \"July 12 to July 22\". The sale had Daily Deals, 8-hour Flash Sales and Community Choice votes."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2012
+start = "2012-11-21"
+end = "2012-11-27"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/9428"
+confidence = "official"
+note = "Thanksgiving-week sale. Valve: \"starts today and lasts through Monday, November 26th, 2012\". The \"DAY SIX\" post is dated 11-26 (https://store.steampowered.com/oldnews/9441). Valve's 11-27 post says \"The Steam Autumn Sale has come to a close\" and extends the Day 6 Daily Deals to Wed 11-28 10:00 PT (https://store.steampowered.com/oldnews/9447). A developer leak reported by Kotaku on 11-20 also gave \"until November 27\". The sale had Daily Deals and Flash Sales."
+
+[[sale]]
+name = "Steam Holiday Sale"
+name_zh = "假期特賣（冬季特賣）"
+kind = "seasonal"
+season = "winter"
+year = 2012
+start = "2012-12-20"
+end = "2013-01-05"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/9635"
+confidence = "official"
+note = "Posted in Valve's steam_release feed. Valve: \"starts now and the deep discounts last until Saturday, January 5th, 2013\". There were daily posts through \"DAY SIXTEEN\" on 01-04 (https://store.steampowered.com/oldnews/9686). A separate Holiday Encore on selected top titles ran from 01-05 10:00 PST to 01-07 10:00 PST (https://store.steampowered.com/oldnews/9690 and https://store.steampowered.com/oldnews/9692). The encore is not included in `end`. A leak reported by Kotaku gave Dec 20 to Jan 4. Valve's own posts are used instead. The sale had Daily Deals, Flash Sales and Community Choice votes."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2013
+start = "2013-07-11"
+end = "2013-07-22"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/11069"
+confidence = "official"
+note = "Valve calls it the \"Steam Summer Getaway Sale\": \"For the next eleven days\" and \"will run from now until 10AM PST, July 22nd\". Valve wrote PST, but the real offset was PDT (UTC-7). The sale had 8-hour Flash Sales, Community's Choice votes and Daily Deals. Trading cards were introduced during this sale. Normal Daily Deals resumed on 07-22."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2013
+start = "2013-11-27"
+end = "2013-12-03"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/11961"
+confidence = "official"
+note = "Thanksgiving-week sale. The day-1 post is titled \"Steam Sale Starts Now!\" and says \"For the next six days\". Later posts are titled \"Steam Autumn Sale Day N\". \"Day 6 - Cyber Monday\" was 12-02 (https://store.steampowered.com/oldnews/11970), and a normal Daily Deal started 12-03 (https://store.steampowered.com/oldnews/11974). The sale had Daily Deals and 8-hour Flash Sales."
+
+[[sale]]
+name = "Steam Holiday Sale"
+name_zh = "假期特賣（冬季特賣）"
+kind = "seasonal"
+season = "winter"
+year = 2013
+start = "2013-12-19"
+end = "2014-01-02"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/12138"
+confidence = "official"
+note = "Valve: \"For the next fourteen days\" and \"The Steam Holiday Sale will run until 10AM PST, January 2nd\" (https://store.steampowered.com/oldnews/12160). A separate Holiday Encore Sale on about 23 top deals ran 01-02 to 01-03 10:00 PST (https://store.steampowered.com/oldnews/12163). The encore is not included in `end`. The sale had Daily Deals, 8-hour Flash Sales and Community's Choice votes."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2014
+start = "2014-06-19"
+end = "2014-06-30"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/13702"
+confidence = "official"
+note = "The sale ran with the Summer Adventure event. The start post says \"For the next ten days\". The Encore Day post on 06-29 says \"The Steam Summer Sale will run until 10AM PDT, June 30th\" (https://store.steampowered.com/oldnews/13733). The Encore Day is inside the sale window. The sale had Daily Deals, 8-hour Flash Sales and Community's Choice Flash Sales."
+
+[[sale]]
+name = "Steam Exploration Sale"
+name_zh = "探索特賣（秋季特賣）"
+kind = "seasonal"
+season = "autumn"
+year = 2014
+start = "2014-11-26"
+end = "2014-12-02"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/15081"
+confidence = "official"
+note = "This was the 2014 Thanksgiving-week sale. Valve named it the Exploration Sale, and RPS called it the Steam Autumn Sale. Valve: \"For the next six days\" and \"runs from now until 10AM Pacific Time, December 2nd\". The sale had Daily Deals (featured deals rotating each day)."
+
+[[sale]]
+name = "Steam Holiday Sale"
+name_zh = "假期特賣（冬季特賣）"
+kind = "seasonal"
+season = "winter"
+year = 2014
+start = "2014-12-18"
+end = "2015-01-02"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/15308"
+confidence = "official"
+note = "Valve: \"For the next fifteen days\" and \"The Steam Holiday Sale runs from December 18th until 10AM PST, January 2nd\" (https://store.steampowered.com/oldnews/15349). The Encore on 40 deals started 12-31 and was inside the sale window (https://store.steampowered.com/oldnews/15371). New deals appeared every 12 hours, and the sale had Community's Choice votes and 24-hour Featured Deals."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2015
+start = "2015-06-11"
+end = "2015-06-22"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/17207"
+confidence = "official"
+note = "Valve calls it the \"Steam Monster Summer Sale\": \"For the next eleven days\" and \"will run from now until 10 AM Pacific, June 22nd\". Daily Deals rotated every 12 hours, and the Monster Summer Game unlocked extra discounts. The Encore started 06-20 and was inside the sale window (https://store.steampowered.com/oldnews/17237). This was the last seasonal sale with rotating Daily Deals."
+
+[[sale]]
+name = "Steam Exploration Sale"
+name_zh = "探索特賣（秋季特賣）"
+kind = "seasonal"
+season = "autumn"
+year = 2015
+start = "2015-11-25"
+end = "2015-12-01"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/19452"
+confidence = "official"
+note = "This was the 2015 Thanksgiving-week sale. Valve named it the Exploration Sale, and RPS called it the Steam Autumn Sale. Valve: \"Offers end Tuesday December 1 at 10AM Pacific\". It was the first seasonal sale without Daily Deals or Flash Sales: each game kept one price for the whole sale (Kotaku, 2015-11-20: https://kotaku.com/valve-is-changing-steam-sales-1743858102)."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2015
+start = "2015-12-22"
+end = "2016-01-04"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/19813"
+confidence = "official"
+note = "Valve calls it the Winter Sale from this year on. Valve: \"Discount offers end January 4th at 10am Pacific\". The Winter Sale ran without Daily Deals or Flash Sales."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2016
+start = "2016-06-23"
+end = "2016-07-04"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/22603"
+confidence = "official"
+note = "The sale had Summer Picnic trading cards. Valve: \"For the next 11 days\" and \"Discount offers end July 4th at 10 AM Pacific Time\". The Day 10 Encore on 07-02 was inside the sale window (https://store.steampowered.com/oldnews/22671)."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2016
+start = "2016-11-23"
+end = "2016-11-29"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/25825"
+confidence = "official"
+note = "Thanksgiving-week sale. The first Steam Awards nominations ran during it. Valve: \"Offers end Tuesday November 29th at 10am Pacific\"."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2016
+start = "2016-12-22"
+end = "2017-01-02"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/26499"
+confidence = "official"
+note = "Valve's posts say \"Discounts end January 2nd at 10pm Pacific\", but 10pm was a typo. The usual 10:00 PST end is used here. Evidence: (1) A Valve Daily Deal on 12-20 that ran into the sale says \"Offer ends January 2nd at 10AM Pacific Time\" (https://store.steampowered.com/oldnews/26424). (2) Normal Daily Deals resumed on 01-02 (https://store.steampowered.com/oldnews/26599). (3) Users on the Steam forum reported that the sale ended at 10am, matching the store banner and countdown (https://steamcommunity.com/discussions/forum/1/154645512753908054). (4) Shacknews gave a Jan 2, ~10 AM PT end."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2017
+start = "2017-06-22"
+end = "2017-07-05"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/30293"
+confidence = "official"
+note = "The sale had a sticker book and trading cards. Valve: \"For the next 13 days\" and \"Discount offers end July 5th at 10 AM Pacific Time\". The Day 12 Encore on 07-03 was inside the sale window (https://store.steampowered.com/oldnews/30307)."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2017
+start = "2017-11-22"
+end = "2017-11-28"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/34820"
+confidence = "official"
+note = "Thanksgiving-week sale, with Steam Awards nominations. Valve: \"Offers end Tuesday November 28th at 10am Pacific\"."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2017
+start = "2017-12-21"
+end = "2018-01-04"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/35783"
+confidence = "official"
+note = "The main post says \"Discounts end January 4th at 10pm Pacific\". This is the same typo as in 2016. Valve's same-day Winter Sale hardware post says \"Offer ends Thursday, January 4th at 10AM Pacific Time\" (https://store.steampowered.com/oldnews/35477). The 10:00 PST end is used here."
+
+[[sale]]
+name = "Steam Summer Sale"
+name_zh = "夏季特賣"
+kind = "seasonal"
+season = "summer"
+year = 2018
+start = "2018-06-21"
+end = "2018-07-05"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/41369"
+confidence = "official"
+note = "Valve calls it the \"Steam Intergalactic Summer Sale\" (with a browser mini-game). Valve: \"For the next fourteen days\" and \"will run from now until 10 AM Pacific, July 5th\"."
+
+[[sale]]
+name = "Steam Autumn Sale"
+name_zh = "秋季特賣"
+kind = "seasonal"
+season = "autumn"
+year = 2018
+start = "2018-11-21"
+end = "2018-11-27"
+status = "ended"
+source = "https://store.steampowered.com/oldnews/46126"
+confidence = "official"
+note = "Thanksgiving-week sale, with Steam Awards nominations. Valve: \"Offers end Tuesday November 27th at 10am Pacific\"."
+
+[[sale]]
+name = "Steam Winter Sale"
+name_zh = "冬季特賣"
+kind = "seasonal"
+season = "winter"
+year = 2018
+start = "2018-12-20"
+end = "2019-01-03"
+status = "ended"
+source = "https://steamcommunity.com/games/593110/announcements/detail/2796070940830444045"
+confidence = "official"
+note = "The sale had the Cozy Cottage event and Steam Awards voting. Valve: \"Discounts end January 3, 2019 at 10am Pacific\". Valve's 01-02 post calls that day the \"final day\" (https://steamcommunity.com/games/593110/announcements/detail/1714081669566733390)."
+
+# =====================================================================================
+# NOTES
+# =====================================================================================
+#
+# Result: 21 seasonal sales. Every year from 2012 to 2018 has a Summer, an Autumn (Thanksgiving-week) and a
+# Winter/Holiday sale. All 21 entries are "official". Every start date and every end date is backed by Valve's
+# own posts.
+#
+# SALES I COULD NOT CONFIRM
+#   - None among the seasonal sales.
+#   - No year from 2012 to 2018 lacks an Autumn/Thanksgiving sale. In 2014 and 2015 that sale was named the
+#     "Steam Exploration Sale".
+#   - No Spring seasonal sale existed in 2012–2018. See the judgement calls below.
+#
+# CLASSIFICATION JUDGEMENT CALLS
+#   1. Exploration Sale 2014 (11-26 to 12-02) and 2015 (11-25 to 12-01). Classified as seasonal "autumn".
+#      - Both were the store-wide Thanksgiving/Black Friday/Cyber Monday sale, in the Autumn Sale slot.
+#      - Both lasted 6 days, like every Autumn Sale in 2012–2018.
+#      - Press called them the Autumn Sale (RPS 2014-11-26 "Steam Autumn Sale On"; RPS 2015-11-25 "The Steam
+#        Autumn Sale Has Started").
+#      - I kept Valve's own name in `name`.
+#   2. "Holiday Sale" (2012, 2013, 2014) is the older name of the Winter Sale. Classified as seasonal "winter".
+#      Valve renamed it the "Winter Sale" in 2015.
+#   3. Encores. In 2014–2018 each Encore ran inside the announced sale window, so the end dates already include
+#      it. In 2012 and 2013 the "Holiday Encore Sale" ran after the main sale ended and covered only a few dozen
+#      top deals:
+#        - 2012: 2013-01-05 to 2013-01-07.
+#        - 2013: 2014-01-02 to 2014-01-03.
+#      I set `end` to the main-sale end and noted the Encore. If the model should count a few games as
+#      discounted for 1–2 more days, extend `end` to the Encore end.
+#   4. Similar carry-overs. After Autumn 2012, Valve kept the Day-6 Daily Deals until 2012-11-28 10:00 PT
+#      (oldnews/9447). This is treated like an Encore and is not included in `end`.
+#   5. "10pm" end times in the 2016 and 2017 Winter Sale posts are treated as typos, based on the evidence in each
+#      entry's note. I kept date-only ends at 10:00 PST.
+#   6. 2012 Summer end. Valve's start post says "lasts through Monday, July 23rd", while its final-day post is dated
+#      07-22. I set `end` = 2012-07-23 (10:00 PDT). A Wayback snapshot confirms the sale was over by the evening of
+#      07-23.
+#   7. Lunar New Year Sale. I treat it as THEMED, following research-sales-calendar.md.
+#      - Valve's posts confirm 2016-02-05 to 2016-02-12 (oldnews/20313) and 2018-02-15 to 2018-02-19 ("Discounts
+#        end Monday at 10am Pacific", oldnews/37184).
+#      - RPS covered a 2016 and a 2018 edition. I did not check the dates of the 2017 edition. Valve's News feed
+#        has no LNY post for Jan–Feb 2017.
+#      - I found no LNY sale in 2012–2015.
+#   8. Spring. Nothing in 2012–2018 counts as a Spring seasonal sale.
+#      - "Spring Indie Sale" 2013-03-21 to ~03-29 (oldnews/10190) was indie-only and themed on IGF finalists.
+#      - "VR Spring Sale" 2018-04-19 was a VR-only weekend sale (oldnews/39076).
+#      - "Spring Cleaning" (2018-05-24; 2019-05-24) was a free-to-play/library event, not a store-wide sale.
+#      - "LEGO Spring Sale" 2018-03-29 was a publisher Weekend Deal.
+#   9. Halloween Sales are THEMED. They were narrow sales of about 80 to a few hundred titles. Seen in Valve posts:
+#      - 2012-10-29 to 11-01 (oldnews/9225)
+#      - 2013-10-29 (oldnews/11732)
+#      - 2014-10-30 (oldnews/14819)
+#      - 2016-10-28 to 11-01 (oldnews/25262)
+#      - 2017-10-26 to 11-01 (oldnews/33893)
+#      I did not check the 2015 and 2018 Halloween sales.
+#   10. Black Friday / Cyber Monday. In 2012–2018 these fell inside the Autumn/Exploration sale and were not
+#       separate sales. The 2015-11-23 "Syber Steam Machines - On Sale Today" was a one-day hardware offer, not a
+#       seasonal sale.
+#   11. Other Valve-run themed or one-off sales are not seasonal and not listed here. Examples: Big Picture launch
+#       sale 2012-12-03, Greenlight Anniversary 2013, Capcom 30th 2013, Canada Day 2014, Japanese/French Indie
+#       2014, Anime Sales 2015–2017, Cyberpunk 2015, Co-op 2015, Rogue-like 2015, Stealth 2015, VR Weekend 2016,
+#       Shoot 'em Up 2016, VR Anniversary 2017, GDC Film Festival 2018, Games from Denmark 2018.
+#   12. Deal mechanics:
+#       - Through Summer 2015, seasonal sales had rotating Daily Deals (24h, or 12h in Summer 2015 and Holiday
+#         2014), 8-hour Flash Sales and Community's Choice votes.
+#       - From the 2015 Exploration Sale on, each game kept one price for the whole sale.
+#       - Prices for a given game could therefore change within a pre-2015-winter sale. The dates above are the
+#         sale-wide window.
+#
+# URLS I ACTUALLY CHECKED (steamdb.info was never fetched or used)
+#   Valve old Steam News posts (all return HTTP 200, and the text was read):
+#     https://store.steampowered.com/oldnews/8388   https://store.steampowered.com/oldnews/8451
+#     https://store.steampowered.com/oldnews/9225   https://store.steampowered.com/oldnews/9428
+#     https://store.steampowered.com/oldnews/9441   https://store.steampowered.com/oldnews/9447
+#     https://store.steampowered.com/oldnews/9635   https://store.steampowered.com/oldnews/9686
+#     https://store.steampowered.com/oldnews/9690   https://store.steampowered.com/oldnews/9692
+#     https://store.steampowered.com/oldnews/10190  https://store.steampowered.com/oldnews/11069
+#     https://store.steampowered.com/oldnews/11094  https://store.steampowered.com/oldnews/11732
+#     https://store.steampowered.com/oldnews/11961  https://store.steampowered.com/oldnews/11970
+#     https://store.steampowered.com/oldnews/11974  https://store.steampowered.com/oldnews/12138
+#     https://store.steampowered.com/oldnews/12160  https://store.steampowered.com/oldnews/12162
+#     https://store.steampowered.com/oldnews/12163  https://store.steampowered.com/oldnews/13702
+#     https://store.steampowered.com/oldnews/13732  https://store.steampowered.com/oldnews/13733
+#     https://store.steampowered.com/oldnews/14819  https://store.steampowered.com/oldnews/15081
+#     https://store.steampowered.com/oldnews/15098  https://store.steampowered.com/oldnews/15308
+#     https://store.steampowered.com/oldnews/15349  https://store.steampowered.com/oldnews/15371
+#     https://store.steampowered.com/oldnews/17207  https://store.steampowered.com/oldnews/17235
+#     https://store.steampowered.com/oldnews/17237  https://store.steampowered.com/oldnews/19452
+#     https://store.steampowered.com/oldnews/19460  https://store.steampowered.com/oldnews/19813
+#     https://store.steampowered.com/oldnews/19862  https://store.steampowered.com/oldnews/20313
+#     https://store.steampowered.com/oldnews/20315  https://store.steampowered.com/oldnews/22603
+#     https://store.steampowered.com/oldnews/22671  https://store.steampowered.com/oldnews/25262
+#     https://store.steampowered.com/oldnews/25825  https://store.steampowered.com/oldnews/25881
+#     https://store.steampowered.com/oldnews/26424  https://store.steampowered.com/oldnews/26499
+#     https://store.steampowered.com/oldnews/26531  https://store.steampowered.com/oldnews/26599
+#     https://store.steampowered.com/oldnews/30293  https://store.steampowered.com/oldnews/30307
+#     https://store.steampowered.com/oldnews/33893  https://store.steampowered.com/oldnews/34820
+#     https://store.steampowered.com/oldnews/34834  https://store.steampowered.com/oldnews/35477
+#     https://store.steampowered.com/oldnews/35783  https://store.steampowered.com/oldnews/35828
+#     https://store.steampowered.com/oldnews/37184  https://store.steampowered.com/oldnews/39076
+#     https://store.steampowered.com/oldnews/41369  https://store.steampowered.com/oldnews/41651
+#     https://store.steampowered.com/oldnews/46126  https://store.steampowered.com/oldnews/46135
+#   Valve old Steam News listings (paged through with enddate):
+#     https://store.steampowered.com/oldnews/?feed=steam_announce&enddate=...  (2011-11 to 2019-07, 4,400 posts)
+#     https://store.steampowered.com/oldnews/?feed=steam_release&enddate=...   (2012-11 to 2013-01)
+#     https://store.steampowered.com/oldnews/?feed=steam_press&enddate=...     (2011-10 to 2019-07; no sale posts)
+#     https://store.steampowered.com/oldnews/?feed=steam_blog&enddate=...      (empty)
+#     https://store.steampowered.com/oldnews/?enddate=1353540000 / 1353700000 / 1356050000 / 1356200000  (all feeds, Nov/Dec 2012)
+#   Steam News (app 593110), read via api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=593110:
+#     https://steamcommunity.com/games/593110/announcements/detail/2796070940830444045  (Winter 2018 start)
+#     https://steamcommunity.com/games/593110/announcements/detail/2796070940830461856  (Winter 2018 day 5)
+#     https://steamcommunity.com/games/593110/announcements/detail/1714081669566733390  (Winter 2018 final day)
+#   Press syndicated in Valve's news feed, read via api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=753:
+#     Kotaku 2012-07-12 "The Steam Summer Sale Is Finally Here"; Kotaku 2012-07-22 "The Steam Sale is Almost Over";
+#     RPS 2012-07-12 "Paying Out For The Summer"; Kotaku 2012-11-20 "Steam's Autumn Sale Starts Tomorrow, According
+#     To One Developer"; Kotaku 2012-11-21 "Steam's Autumn Sale Has Begun"; RPS 2012-11-21 "It Begins: The Steam
+#     Autumn Sale"; Kotaku 2012-12-20 "The Steam Holiday Sale Is Now Live"; RPS 2012-12-20 "Steam's Holiday Sale
+#     Has Started Already"; plus titles of RPS/Kotaku sale posts 2012–2018 (listed only, not cited).
+#   Wayback Machine (store front snapshots):
+#     https://web.archive.org/web/20120723055813/http://store.steampowered.com/   (sale still live, 07-22 22:58 PDT)
+#     https://web.archive.org/web/20120724064331/http://store.steampowered.com/   (sale over, 07-23 23:43 PDT)
+#     https://web.archive.org/web/20121127062851/http://store.steampowered.com/
+#     https://web.archive.org/web/20121127162452/http://store.steampowered.com/
+#     https://web.archive.org/web/20121127183510/http://store.steampowered.com/   (normal Daily Deal plus "Last Chance
+#                                                                                  to Pick up Yesterday's Daily Deals")
+#   Other pages:
+#     https://steamcommunity.com/discussions/forum/1/154645512753908054   (2016 Winter end-time typo)
+#     https://www.shacknews.com/article/98284/steam-winter-sale-2016-begins-today
+#     https://kotaku.com/valve-is-changing-steam-sales-1743858102          (end of Daily/Flash deals, 2015-11-20)
+#     https://steamcommunity.com/sharedfiles/filedetails/?id=759205611    (community guide; mixes inclusive and
+#                                                                          exclusive end dates and gives no sources;
+#                                                                          not used as a source)
+#     https://www.gamespot.com/articles/last-day-for-steam-winter-sale-2017-discounting-hu/1100-6455783/  (HTTP 403, not read)

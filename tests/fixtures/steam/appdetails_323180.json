@@ -1,0 +1,111 @@
+{
+ "323180": {
+  "success": true,
+  "data": {
+   "type": "music",
+   "name": "Portal 2 Soundtrack",
+   "steam_appid": 323180,
+   "required_age": 0,
+   "is_free": true,
+   "detailed_description": "《傳送門 2》的原聲帶分為三輯發行：第一輯名為 Volume 1，於 2011 年 5 月 25 日發行；Volume 2 於  2011 年 7 月 1 日發行；Volume 3 於 2011 年 9 月 30 日發行。",
+   "about_the_game": "《傳送門 2》的原聲帶分為三輯發行：第一輯名為 Volume 1，於 2011 年 5 月 25 日發行；Volume 2 於  2011 年 7 月 1 日發行；Volume 3 於 2011 年 9 月 30 日發行。",
+   "short_description": "《傳送門 2》的原聲帶分為三輯發行：第一輯名為 Volume 1，於 2011 年 5 月 25 日發行；Volume 2 於 2011 年 7 月 1 日發行；Volume 3 於 2011 年 9 月 30 日發行。",
+   "fullgame": {
+    "appid": "620",
+    "name": "Portal 2"
+   },
+   "supported_languages": "英文<strong>*</strong>, 法文<strong>*</strong>, 德文<strong>*</strong>, 西班牙文 - 西班牙<strong>*</strong>, 捷克文, 丹麥文, 荷蘭文, 芬蘭文, 匈牙利文, 義大利文, 日文, 韓文, 挪威文, 波蘭文, 葡萄牙文 - 葡萄牙, 羅馬尼亞文, 俄文<strong>*</strong>, 簡體中文, 瑞典文, 泰文, 繁體中文, 土耳其文<br><strong>*</strong>具備完整音效支援的語言",
+   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323180/header.jpg?t=1759273301",
+   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323180/capsule_231x87.jpg?t=1759273301",
+   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323180/capsule_184x69.jpg?t=1759273301",
+   "website": "http://www.thinkwithportals.com/",
+   "pc_requirements": {
+    "minimum": "<strong>最低配備:</strong><br><ul class=\"bb_ul\"><li><strong>儲存空間:</strong> 562 MB 可用空間<br></li><li><strong>儲存空間（高音質音訊）:</strong> 額外 1GB 可用空間</li></ul>"
+   },
+   "mac_requirements": [],
+   "linux_requirements": [],
+   "developers": [
+    "Valve"
+   ],
+   "publishers": [
+    "Valve"
+   ],
+   "packages": [
+    50873
+   ],
+   "package_groups": [
+    {
+     "name": "default",
+     "title": "購買 Portal 2 Soundtrack",
+     "description": "",
+     "selection_text": "選擇購買選項",
+     "save_text": "",
+     "display_type": 0,
+     "is_recurring_subscription": "false",
+     "subs": [
+      {
+       "packageid": 50873,
+       "percent_savings_text": " ",
+       "percent_savings": 0,
+       "option_text": "Portal 2 Soundtrack - 免費",
+       "option_description": "",
+       "can_get_free_license": "0",
+       "is_free_license": true,
+       "price_in_cents_with_discount": 0
+      }
+     ]
+    }
+   ],
+   "platforms": {
+    "windows": true,
+    "mac": true,
+    "linux": true
+   },
+   "categories": [
+    {
+     "id": 50,
+     "description": "額外高音質音訊"
+    }
+   ],
+   "screenshots": [
+    {
+     "id": 0,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323180/ss_91f3b9159dadbad101fe52be603a2a26795ca640.600x338.jpg?t=1759273301",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323180/ss_91f3b9159dadbad101fe52be603a2a26795ca640.1920x1080.jpg?t=1759273301"
+    }
+   ],
+   "release_date": {
+    "coming_soon": false,
+    "date": "2014 年 9 月 24 日"
+   },
+   "support_info": {
+    "url": "",
+    "email": ""
+   },
+   "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/323180?t=1759273301",
+   "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/323180?t=1759273301",
+   "content_descriptors": {
+    "ids": [],
+    "notes": null
+   },
+   "ratings": {
+    "dejus": {
+     "rating_generated": "1",
+     "rating": "l",
+     "required_age": "0",
+     "banned": "0",
+     "use_age_gate": "0",
+     "descriptors": ""
+    },
+    "steam_germany": {
+     "rating_generated": "1",
+     "rating": "0",
+     "required_age": "0",
+     "banned": "0",
+     "use_age_gate": "0",
+     "descriptors": ""
+    }
+   }
+  }
+ }
+}

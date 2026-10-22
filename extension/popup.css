@@ -1,0 +1,32 @@
+:root { --bg: #f7f7f5; --card: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e2e2e0; --accent: #1a73e8;
+  --good: #1e7d32; --warn-bg: #fff4e5; --warn: #8a4b00; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #171a21; --card: #1f2a38; --text: #e6e9ec; --muted: #9aa4ae; --line: #2f3a48; --accent: #66c0f4;
+    --good: #a4d007; --warn-bg: #3a2a12; --warn: #f6c26b; }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { width: 400px; max-height: 600px; overflow-y: auto; background: var(--bg); color: var(--text);
+  font: 13px/1.5 "Segoe UI", "Microsoft JhengHei", "PingFang TC", sans-serif; }
+header { position: sticky; top: 0; z-index: 1; background: var(--bg); padding: 10px 12px 6px; border-bottom: 1px solid var(--line); }
+h1 { display: flex; align-items: center; gap: 6px; font-size: 15px; margin: 0 0 2px; }
+#meta { color: var(--muted); margin: 0; font-size: 12px; }
+.warn { background: var(--warn-bg); color: var(--warn); border-radius: 6px; padding: 4px 8px; margin: 6px 0 0; font-weight: 600; }
+.hint { color: var(--muted); font-size: 11px; margin: 4px 0 0; }
+.error { padding: 16px 12px; font-weight: 600; }
+main { padding: 4px 12px 12px; }
+details.group { margin: 8px 0; }
+details.group > summary { cursor: pointer; font-weight: 700; padding: 4px 0; border-bottom: 2px solid var(--line); }
+details.group > summary .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
+.row { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px; margin: 6px 0; }
+.row a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.row a:hover { text-decoration: underline; }
+.nums { display: flex; flex-wrap: wrap; gap: 2px 10px; color: var(--muted); font-size: 12px; }
+.nums b { color: var(--text); font-weight: 600; }
+.nums .sweet b { color: var(--good); }
+.reason { color: var(--muted); font-size: 12px; }
+.empty { color: var(--muted); font-size: 12px; margin: 4px 0; }
+h2 { font-size: 13px; margin: 12px 0 4px; padding-bottom: 4px; border-bottom: 2px solid var(--line); }
+.bundle .tag { color: var(--muted); font-size: 11px; margin-left: 6px; }
+.row .edition { color: var(--warn); border: 1px solid var(--warn); border-radius: 3px; padding: 0 4px; font-size: 11px;
+  margin-left: 6px; cursor: help; }

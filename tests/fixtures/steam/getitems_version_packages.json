@@ -1,0 +1,100 @@
+{
+ "response": {
+  "store_items": [
+   {
+    "item_type": 1,
+    "id": 1345940,
+    "success": 1,
+    "name": "Dying Light Essentials Edition",
+    "included_appids": [
+     239140,
+     302101,
+     325723,
+     347090,
+     436080,
+     436081,
+     436082,
+     1177880,
+     1184350,
+     1241570,
+     3454290
+    ],
+    "best_purchase_option": {
+     "packageid": 1345940,
+     "purchase_option_name": "Dying Light Essentials Edition",
+     "final_price_in_cents": "13400",
+     "original_price_in_cents": "67000",
+     "discount_pct": 80,
+     "included_game_count": 1
+    }
+   },
+   {
+    "item_type": 1,
+    "id": 1345941,
+    "success": 15,
+    "name": "Dying Light Essentials Edition"
+   },
+   {
+    "item_type": 1,
+    "id": 9900011,
+    "success": 1,
+    "name": "範例分季作品",
+    "included_appids": [
+     9500003
+    ],
+    "best_purchase_option": {
+     "packageid": 9900011,
+     "purchase_option_name": "範例分季作品",
+     "final_price_in_cents": "5600",
+     "original_price_in_cents": "22600",
+     "discount_pct": 75,
+     "included_game_count": 1
+    }
+   },
+   {
+    "item_type": 1,
+    "id": 1265945,
+    "success": 1,
+    "name": "Dying Light: Definitive 10th Anniversary Edition",
+    "included_appids": [
+     239140,
+     302101,
+     325723,
+     325724,
+     347090,
+     435111,
+     436080,
+     436081,
+     436082,
+     748340,
+     748341,
+     1112520,
+     1112521,
+     1174580,
+     1177880,
+     1184350,
+     1241570,
+     1300710,
+     1354960,
+     1468290,
+     1498210,
+     1543420,
+     1647900,
+     1702060,
+     1762700,
+     1822810,
+     1935540,
+     3454290
+    ],
+    "best_purchase_option": {
+     "packageid": 1265945,
+     "purchase_option_name": "Dying Light: Definitive 10th Anniversary Edition",
+     "final_price_in_cents": "14900",
+     "original_price_in_cents": "74900",
+     "discount_pct": 80,
+     "included_game_count": 1
+    }
+   }
+  ]
+ }
+}

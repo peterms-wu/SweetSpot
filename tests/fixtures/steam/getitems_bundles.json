@@ -1,0 +1,97 @@
+{
+ "response": {
+  "store_items": [
+   {
+    "item_type": 2,
+    "id": 32470,
+    "success": 1,
+    "visible": true,
+    "name": "《電馭叛客 2077：終極版》",
+    "type": 0,
+    "included_types": [
+     0,
+     4
+    ],
+    "included_appids": [
+     1091500,
+     2138330
+    ]
+   },
+   {
+    "item_type": 2,
+    "id": 32958,
+    "success": 1,
+    "visible": true,
+    "name": "潛水員戴夫 Deluxe Edition",
+    "type": 0,
+    "included_types": [
+     0,
+     4
+    ],
+    "included_appids": [
+     1868140,
+     2492320
+    ]
+   },
+   {
+    "item_type": 2,
+    "id": 77855,
+    "success": 1,
+    "visible": true,
+    "name": "DAVE THE DIVER x MiSide",
+    "type": 0,
+    "included_types": [
+     0
+    ],
+    "included_appids": [
+     1868140,
+     2527500
+    ]
+   },
+   {
+    "item_type": 2,
+    "id": 10318,
+    "success": 1,
+    "visible": true,
+    "name": "Devil May Cry 5 - Deluxe Upgrade",
+    "type": 0,
+    "included_types": [
+     4
+    ],
+    "included_appids": [
+     941950,
+     941951
+    ]
+   },
+   {
+    "item_type": 2,
+    "id": 1,
+    "success": 15,
+    "visible": false,
+    "name": ""
+   },
+   {
+    "item_type": 2,
+    "id": 74673,
+    "success": 1,
+    "name": "OPUS系列遊戲同捆版",
+    "included_appids": [
+     457680,
+     742250,
+     1504500,
+     1947910
+    ]
+   },
+   {
+    "item_type": 2,
+    "id": 74895,
+    "success": 1,
+    "name": "Clair Obscur: Expedition 33 x Dispatch",
+    "included_appids": [
+     1903340,
+     2592160
+    ]
+   }
+  ]
+ }
+}

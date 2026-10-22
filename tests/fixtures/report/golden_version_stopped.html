@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>願望清單甜蜜價報告</title><style>
+:root { --bg:#f7f7f5; --card:#fff; --text:#1d1d1f; --muted:#6b6b70; --line:#e2e2e0; --accent:#1a73e8;
+  --good:#1e7d32; --warn-bg:#fff4e5; --warn:#8a4b00; --tag:#eef1f6; --change:#fdecea; --change-text:#a1261b; }
+@media (prefers-color-scheme: dark) { :root { --bg:#141416; --card:#1e1e21; --text:#ececef; --muted:#a0a0a8;
+  --line:#2f2f33; --accent:#8ab4f8; --good:#81c995; --warn-bg:#3a2a12; --warn:#f6c26b; --tag:#2a2d33;
+  --change:#3b1f1d; --change-text:#f28b82; } }
+* { box-sizing:border-box; }
+body { margin:0; padding:0 16px 48px; background:var(--bg); color:var(--text);
+  font:15px/1.55 "Segoe UI","Microsoft JhengHei","PingFang TC","Noto Sans TC",sans-serif; }
+header, main { max-width:1100px; margin:0 auto; }
+h1 { font-size:24px; margin:24px 0 8px; }
+h2 { display:inline; font-size:18px; margin:0 8px 0 0; }
+a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+.meta { color:var(--muted); margin:4px 0; font-size:13px; }
+.banner { background:var(--warn-bg); color:var(--warn); padding:8px 12px; border-radius:8px; font-weight:600; }
+nav { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+.chip { background:var(--card); border:1px solid var(--line); border-radius:999px; padding:4px 12px; }
+.notes { color:var(--muted); font-size:13px; padding-left:20px; }
+#filter { width:100%; max-width:360px; padding:8px 12px; border:1px solid var(--line); border-radius:8px;
+  background:var(--card); color:var(--text); font:inherit; margin:8px 0 16px; }
+section { margin:16px 0; }
+details.group > summary { cursor:pointer; padding:8px 0; border-bottom:2px solid var(--line); }
+.desc, .backtest { color:var(--muted); font-size:13px; margin-right:12px; }
+.backtest { color:var(--warn); }
+details.game { background:var(--card); border:1px solid var(--line); border-radius:10px; margin:8px 0; }
+details.game > summary { cursor:pointer; list-style:none; padding:10px 14px; display:grid; gap:4px 16px;
+  grid-template-columns:minmax(220px,2.2fr) repeat(5,minmax(90px,1fr)); align-items:center; }
+details.game > summary::-webkit-details-marker { display:none; }
+details.game > summary.v3 { grid-template-columns:minmax(200px,2fr) repeat(7,minmax(76px,1fr)); }
+tr.chosen td { font-weight:600; }
+.pick { background:var(--good); color:var(--card); }
+.nowrap { white-space:nowrap; }
+.name { font-weight:600; }
+.version { display:block; color:var(--muted); font-size:12px; font-weight:400; }
+.cell small { display:block; color:var(--muted); font-size:11px; font-weight:400; }
+.sweet { color:var(--good); font-weight:600; }
+.tag { display:inline-block; background:var(--tag); color:var(--muted); font-size:11px; font-weight:400;
+  border-radius:4px; padding:0 6px; margin-left:6px; }
+.change { display:inline-block; background:var(--change); color:var(--change-text); font-size:11px;
+  font-weight:600; border-radius:4px; padding:0 6px; margin-left:6px; }
+.reason { color:var(--muted); grid-column:2 / -1; }
+.body { padding:0 14px 12px; border-top:1px solid var(--line); }
+.body ul { padding-left:20px; }
+table { border-collapse:collapse; margin:8px 0; font-size:13px; }
+.table-scroll { overflow-x:auto; max-width:100%; }
+p.caption { color:var(--muted); font-size:13px; margin:8px 0 0; }
+table.editions td, table.editions th { white-space:nowrap; }
+table.editions td:first-child { white-space:normal; min-width:9em; }
+button.copy { font-size:11px; padding:1px 6px; margin-left:4px; cursor:pointer; }
+.tag.editions { background:transparent; border:1px solid var(--line); }
+caption { text-align:left; color:var(--muted); padding-bottom:4px; white-space:nowrap; }
+th, td { border-bottom:1px solid var(--line); padding:4px 12px 4px 0; text-align:left; }
+.empty { color:var(--muted); }
+.ns h3 { font-size:14px; margin:8px 0 0; }
+details.bundle { background:var(--card); border:1px solid var(--line); border-radius:10px; margin:8px 0; }
+details.bundle > summary { cursor:pointer; list-style:none; padding:10px 14px; display:grid; gap:4px 16px;
+  grid-template-columns:minmax(220px,2.2fr) repeat(2,minmax(90px,1fr)); align-items:center; }
+details.bundle > summary::-webkit-details-marker { display:none; }
+.warn { color:var(--warn); }
+p.bundle-hint { margin:6px 0; font-size:13px; }
+.body { overflow-x:auto; }
+@media (max-width:720px) { details.game > summary, details.game > summary.v3, details.bundle > summary {
+    grid-template-columns:1fr 1fr; }
+  .name, .reason { grid-column:1 / -1; } }
+</style></head><body>
+<header>
+  <h1>願望清單甜蜜價報告</h1>
+  <p class="meta">分析時間 2026-09-25 08:00（台北）· 資料截止 2026-09-25 08:00 ·
+    模型 seasonal-freq 1.0.0 · 規則 sweet-price 1.0.0</p>
+  
+  <p class="meta">折扣差距：長期最低價淺於 -75% 時 10 個百分點，-75% 以上 5 個百分點；容許差距 NT$30–NT$100；即將到價 = 甜蜜時點在下一場季節特賣（使用者偏好）</p>
+  <p class="meta">沒有前一天或更早的紀錄，無法比較</p>
+  <nav><a class="chip" href="#group-now">現在買（0）</a><a class="chip" href="#group-soon">即將到價（1）</a><a class="chip" href="#group-wait">繼續等（0）</a><a class="chip" href="#group-low">低信心（0）</a><a class="chip" href="#group-na">無法預測（0）</a></nav>
+  <ul class="notes"><li>價格指 Steam 商店預設的購買選項（通常是一般版）；在設定檔 [purchase_options] 指定了版本的遊戲，指那個版本。</li><li>甜蜜價規則尚未以現行模型與規則回測：本報告不引用任何準確率。</li></ul>
+  <input id="filter" type="search" placeholder="依名稱篩選" aria-label="依名稱篩選">
+</header>
+<main><section id="group-now"><details class="group" open><summary><h2>現在買（0）</h2><span class="desc">現價已經不高於甜蜜價</span></summary><p class=empty>沒有遊戲</p></details></section>
+<section id="group-soon"><details class="group" open><summary><h2>即將到價（1）</h2><span class="desc">甜蜜時點是下一場季節特賣</span></summary><details class="game" data-app="7" data-name="dying light"><summary><span class="name"><a href="https://store.steampowered.com/app/7/">Dying Light</a><small class="version">追蹤 Dying Light Essentials Edition · 歷史從 2025-06-27 起 · 價格歷史停止更新（最後確認 2025-01-28）</small></span><span class="cell"><small>現價</small>NT$500 原價</span><span class="cell sweet"><small>甜蜜價</small>NT$250 -50%</span><span class="cell"><small>時點</small>2026 秋特（官方）</span><span class="cell" title="到 2026 秋特為止，季節特賣打到 -50%（NT$250）以上的機率；跟現價無關"><small>到價機率</small>54%</span><span class="cell"><small>長期最低</small>NT$200 -60%</span></summary><div class="body"><ul><li>第一個原因</li><li>第二個原因</li></ul><table><caption>等待對照表：每場累積機率 ≥ 50% 的最深折扣</caption><tr><th>特賣</th><th>折扣</th><th>價格</th><th>機率</th></tr><tr><td>2026 秋特</td><td>-50%</td><td>NT$250</td><td>54%</td></tr></table><p class="meta">現價來源：Steam 現價，最後確認 2026-09-25 08:00（台北）· 甜蜜時點 2026 秋特：2026-09-30 01:00 – 2026-10-07 01:00（台北，官方）</p></div></details></details></section>
+<section id="group-wait"><details class="group" open><summary><h2>繼續等（0）</h2><span class="desc">甜蜜時點在更後面的季節特賣</span></summary><p class=empty>沒有遊戲</p></details></section>
+<section id="group-low"><details class="group" open><summary><h2>低信心（0）</h2><span class="desc">資料不足或原價不一致，數字僅供參考</span></summary><p class=empty>沒有遊戲</p></details></section>
+<section id="group-na"><details class="group" open><summary><h2>無法預測（0）</h2><span class="desc">無法產生建議，附原因</span></summary><p class=empty>沒有遊戲</p></details></section></main><script>
+document.addEventListener('click', function (e) {
+  var b = e.target.closest ? e.target.closest('button.copy') : null;
+  if (!b) { return; }
+  e.preventDefault();
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(b.dataset.copy).then(function () { b.textContent = '已複製'; },
+                                                      function () { b.textContent = '請手動選取'; });
+  } else { b.textContent = '請手動選取'; }
+});
+document.getElementById('filter').addEventListener('input', function (e) {
+  var q = e.target.value.trim().toLowerCase();
+  document.querySelectorAll('details.game').forEach(function (g) {
+    g.hidden = q !== '' && g.dataset.name.indexOf(q) === -1;
+  });
+});
+</script></body></html>

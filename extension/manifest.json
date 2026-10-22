@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuBER/kRfF4DuLY4FhpzfnF8Rfcqjtk0ZxcYiNZvuVhW5+WlY2uUNZ8zBvyqil/mAHGgGSzCu1EJ5YN2ShUSZA1cghXB0159+8pQ9rfEes22psRtIdapDM4dtKGGOIIIzt8i5dBic9QgqWNMWmtYwBSHEDkXPIQYyeH/kCpoFb7Fw1PFCMmDWF81L+7iLzQ+29vW3twb/Q8yjouHmX63iNFiDR1K5a+qxlGEw1pZhB0XiZQvSYfFiR0qOXs4N6JYnnMSnnLZsAiXaWsOYBHEuKs6wp1/kHP6d0+Cm/8LQsDEa9tZcQ4SrPr7DKoN+TGvp1L3aPTiTciydVDJuZ9e36wIDAQAB",
+  "name": "SweetSpot",
+  "version": "1.2.4",
+  "description": "在 Steam 願望清單與遊戲頁面上顯示 SweetSpot 報告的甜蜜價與甜蜜時點（只讀本機資料檔，不連外；安裝本機程式後可在遊戲頁指定追蹤版本）",
+  "icons": {"16": "icons/icon-16.png", "32": "icons/icon-32.png", "48": "icons/icon-48.png", "128": "icons/icon-128.png"},
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SweetSpot",
+    "default_icon": {"16": "icons/icon-16.png", "32": "icons/icon-32.png"}
+  },
+  "background": {"service_worker": "sw.js"},
+  "permissions": ["alarms", "nativeMessaging"],
+  "content_scripts": [{
+    "matches": ["https://store.steampowered.com/app/*", "https://store.steampowered.com/wishlist/*"],
+    "js": ["lib.js", "content.js"],
+    "run_at": "document_idle"
+  }],
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self'; object-src 'none'"
+  }
+}

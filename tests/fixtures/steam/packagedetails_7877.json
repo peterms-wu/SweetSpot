@@ -1,0 +1,35 @@
+{
+ "7877": {
+  "success": true,
+  "data": {
+   "name": "Portal 2",
+   "page_image": null,
+   "small_logo": null,
+   "apps": [
+    {
+     "id": 620,
+     "name": "Portal 2"
+    }
+   ],
+   "price": {
+    "currency": "TWD",
+    "initial": 18800,
+    "final": 18800,
+    "discount_percent": 0,
+    "individual": 0
+   },
+   "platforms": {
+    "windows": true,
+    "mac": false,
+    "linux": true
+   },
+   "controller": {
+    "full_gamepad": true
+   },
+   "release_date": {
+    "coming_soon": false,
+    "date": "18 Apr, 2011"
+   }
+  }
+ }
+}

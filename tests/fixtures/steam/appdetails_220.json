@@ -1,0 +1,484 @@
+{
+ "323140": {
+  "success": true,
+  "data": {
+   "type": "game",
+   "name": "Half-Life 2",
+   "steam_appid": 220,
+   "required_age": 0,
+   "is_free": false,
+   "controller_support": "full",
+   "dlc": [
+    323140
+   ],
+   "detailed_description": "<p class=\"bb_paragraph\" ><i>七小時戰役慘敗， 地球棄械投降。 黑色高地事件成了遙遠的記憶。</i>這次玩家再度拾起研究員高登．弗里曼的鐵撬，現身於被外星人佔據並壓榨、資源竭盡、人口凋零的地球。 弗里曼被迫扮演救世主的角色，從他自己在黑色高地所錯放出的邪惡手中拯救世界。 而這次，有更多他所關心的人滿心期待著他的成功。</p><p class=\"bb_paragraph\" >《戰慄時空 2》「塑造了次世代遊戲的的典範」（PC Gamer），是為第一人稱射擊遊戲的里程碑。 體驗引人入勝的戰役，四處均可感受到沉浸式世界的建構、物理極限的突破與血脈賁張的戰鬥。</p><p class=\"bb_paragraph\" > </p><h2 class=\"bb_tag\" >包含《戰慄時空 2》首部曲與二部曲兩個擴充內容</h2><p class=\"bb_paragraph\" >《戰慄時空 2》的故事由首部曲與二部曲來延續——兩個發生於主遊戲故事後續的完整戰慄時空冒險。 從主選單就可以進入，您會在完成每個擴充內容後自動進入下一個擴充內容。</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/extras/363ed9ea180fe9d548521b2cc18d8c22.avif?t=1745368545\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/extras_big/363ed9ea180fe9d548521b2cc18d8c22.avif?t=1745368545 width=800 height=330 /></span></p><h2 class=\"bb_tag\" > 戰慄時空 2：死鬥模式</h2><p class=\"bb_paragraph\" >《戰慄時空 2》遊戲系列中的快節奏多人動作遊戲！ HL2 的物理運算為死鬥模式遊戲開創新局。 直接挑戰死鬥模式，或嘗試合成人對抗反抗軍的團戰模式。 馬上與您的朋友捉對廝殺！ <strong>購買《戰慄時空 2》就會直接加入您的 Steam 收藏庫中。</strong></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/extras/7297f35bf74ad59802e5da47afb783cd.avif?t=1745368545\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/extras_big/7297f35bf74ad59802e5da47afb783cd.avif?t=1745368545 width=800 height=342 /></span></p><h2 class=\"bb_tag\" >Steam 工作坊</h2><p class=\"bb_paragraph\" >遊玩社群製作的整場戰役，或將武器、敵人、使用者介面，以及更多其它內容換成社群製作版本。</p>",
+   "about_the_game": "<p class=\"bb_paragraph\" ><i>七小時戰役慘敗， 地球棄械投降。 黑色高地事件成了遙遠的記憶。</i>這次玩家再度拾起研究員高登．弗里曼的鐵撬，現身於被外星人佔據並壓榨、資源竭盡、人口凋零的地球。 弗里曼被迫扮演救世主的角色，從他自己在黑色高地所錯放出的邪惡手中拯救世界。 而這次，有更多他所關心的人滿心期待著他的成功。</p><p class=\"bb_paragraph\" >《戰慄時空 2》「塑造了次世代遊戲的的典範」（PC Gamer），是為第一人稱射擊遊戲的里程碑。 體驗引人入勝的戰役，四處均可感受到沉浸式世界的建構、物理極限的突破與血脈賁張的戰鬥。</p><p class=\"bb_paragraph\" > </p><h2 class=\"bb_tag\" >包含《戰慄時空 2》首部曲與二部曲兩個擴充內容</h2><p class=\"bb_paragraph\" >《戰慄時空 2》的故事由首部曲與二部曲來延續——兩個發生於主遊戲故事後續的完整戰慄時空冒險。 從主選單就可以進入，您會在完成每個擴充內容後自動進入下一個擴充內容。</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/extras/363ed9ea180fe9d548521b2cc18d8c22.avif?t=1745368545\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/extras_big/363ed9ea180fe9d548521b2cc18d8c22.avif?t=1745368545 width=800 height=330 /></span></p><h2 class=\"bb_tag\" > 戰慄時空 2：死鬥模式</h2><p class=\"bb_paragraph\" >《戰慄時空 2》遊戲系列中的快節奏多人動作遊戲！ HL2 的物理運算為死鬥模式遊戲開創新局。 直接挑戰死鬥模式，或嘗試合成人對抗反抗軍的團戰模式。 馬上與您的朋友捉對廝殺！ <strong>購買《戰慄時空 2》就會直接加入您的 Steam 收藏庫中。</strong></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/extras/7297f35bf74ad59802e5da47afb783cd.avif?t=1745368545\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/extras_big/7297f35bf74ad59802e5da47afb783cd.avif?t=1745368545 width=800 height=342 /></span></p><h2 class=\"bb_tag\" >Steam 工作坊</h2><p class=\"bb_paragraph\" >遊玩社群製作的整場戰役，或將武器、敵人、使用者介面，以及更多其它內容換成社群製作版本。</p>",
+   "short_description": "高登．弗里曼自沉睡中甦醒，發現自己置身於被佔領的都市 17 號城。已無退路的人類在高登與艾莉克絲．凡斯的帶領之下進行反抗行動。 體驗第一人稱射擊遊戲的里程碑，在這個沉浸式世界中突破物理極限並進行血脈賁張的戰鬥。",
+   "supported_languages": "英文<strong>*</strong>, 法文<strong>*</strong>, 德文<strong>*</strong>, 義大利文<strong>*</strong>, 韓文<strong>*</strong>, 西班牙文 - 西班牙<strong>*</strong>, 俄文<strong>*</strong>, 簡體中文, 繁體中文, 荷蘭文, 丹麥文, 芬蘭文, 日文, 挪威文, 波蘭文, 葡萄牙文 - 葡萄牙, 瑞典文, 泰文, 保加利亞文, 捷克文, 希臘文, 匈牙利文, 葡萄牙文 - 巴西, 羅馬尼亞文, 西班牙文 - 拉丁美洲, 土耳其文, 烏克蘭文<br><strong>*</strong>具備完整音效支援的語言",
+   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/header.jpg?t=1745368545",
+   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/951c6aca52bf32d7c95e9f8b3c04fa95e9a735ea/capsule_231x87.jpg?t=1745368545",
+   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/951c6aca52bf32d7c95e9f8b3c04fa95e9a735ea/capsule_184x69.jpg?t=1745368545",
+   "website": "http://www.half-life.com/halflife2",
+   "pc_requirements": {
+    "minimum": "<strong>最低配備:</strong><br><ul class=\"bb_ul\"><li><strong>作業系統 *:</strong> Windows 7、Vista、XP<br></li><li><strong>處理器:</strong> 1.7 Ghz<br></li><li><strong>記憶體:</strong> 512 MB 記憶體<br></li><li><strong>顯示卡:</strong> DirectX 8.1 級顯示卡（需支援 SSE）<br></li><li><strong>儲存空間:</strong> 6500 MB 可用空間</li></ul>"
+   },
+   "mac_requirements": {
+    "minimum": "<strong>最低配備:</strong><br><ul class=\"bb_ul\"><li><strong>作業系統:</strong> Leopard 10.5.8、Snow Leopard 10.6.3 或以上<br></li><li><strong>記憶體:</strong> 1 GB 記憶體<br></li><li><strong>顯示卡:</strong> Nvidia GeForce8 以上、ATI X1600 以上、Intel HD 3000 以上</li></ul>"
+   },
+   "linux_requirements": [],
+   "developers": [
+    "Valve"
+   ],
+   "publishers": [
+    "Valve"
+   ],
+   "demos": [
+    {
+     "appid": 219,
+     "description": ""
+    }
+   ],
+   "price_overview": {
+    "currency": "TWD",
+    "initial": 18800,
+    "final": 18800,
+    "discount_percent": 0,
+    "initial_formatted": "",
+    "final_formatted": "NT$ 188"
+   },
+   "packages": [
+    289444,
+    36,
+    469
+   ],
+   "package_groups": [
+    {
+     "name": "default",
+     "title": "購買 Half-Life 2",
+     "description": "",
+     "selection_text": "選擇購買選項",
+     "save_text": "",
+     "display_type": 0,
+     "is_recurring_subscription": "false",
+     "subs": [
+      {
+       "packageid": 289444,
+       "percent_savings_text": " ",
+       "percent_savings": 0,
+       "option_text": "Half-Life 2 - Commercial License - NT$ 186",
+       "option_description": "",
+       "can_get_free_license": "0",
+       "is_free_license": false,
+       "price_in_cents_with_discount": 18600
+      },
+      {
+       "packageid": 36,
+       "percent_savings_text": " ",
+       "percent_savings": 0,
+       "option_text": "Half-Life 2 - NT$ 188",
+       "option_description": "",
+       "can_get_free_license": "0",
+       "is_free_license": false,
+       "price_in_cents_with_discount": 18800
+      },
+      {
+       "packageid": 469,
+       "percent_savings_text": " ",
+       "percent_savings": 0,
+       "option_text": "The Orange Box - NT$ 328",
+       "option_description": "",
+       "can_get_free_license": "0",
+       "is_free_license": false,
+       "price_in_cents_with_discount": 32800
+      }
+     ]
+    }
+   ],
+   "platforms": {
+    "windows": true,
+    "mac": false,
+    "linux": true
+   },
+   "metacritic": {
+    "score": 96,
+    "url": "https://www.metacritic.com/game/pc/half-life-2?ftag=MCD-06-10aaa1f"
+   },
+   "categories": [
+    {
+     "id": 2,
+     "description": "單人"
+    },
+    {
+     "id": 22,
+     "description": "Steam 成就"
+    },
+    {
+     "id": 28,
+     "description": "完整控制器支援"
+    },
+    {
+     "id": 29,
+     "description": "Steam 交換卡片"
+    },
+    {
+     "id": 13,
+     "description": "有字幕"
+    },
+    {
+     "id": 30,
+     "description": "Steam 工作坊"
+    },
+    {
+     "id": 67,
+     "description": "鏡頭舒適度"
+    },
+    {
+     "id": 68,
+     "description": "自訂音量控制"
+    },
+    {
+     "id": 78,
+     "description": "可調整難度"
+    },
+    {
+     "id": 74,
+     "description": "遊玩無需快速反應"
+    },
+    {
+     "id": 55,
+     "description": "DUALSHOCK 控制器支援"
+    },
+    {
+     "id": 56,
+     "description": "DUALSHOCK 控制器支援"
+    },
+    {
+     "id": 57,
+     "description": "DualSense 控制器支援"
+    },
+    {
+     "id": 58,
+     "description": "DualSense 控制器支援"
+    },
+    {
+     "id": 79,
+     "description": "隨時儲存"
+    },
+    {
+     "id": 59,
+     "description": "Steam 輸入 API 支援"
+    },
+    {
+     "id": 69,
+     "description": "立體聲"
+    },
+    {
+     "id": 65,
+     "description": "字幕選項"
+    },
+    {
+     "id": 70,
+     "description": "環繞音效"
+    },
+    {
+     "id": 23,
+     "description": "Steam 雲端"
+    },
+    {
+     "id": 16,
+     "description": "包含 Source SDK"
+    },
+    {
+     "id": 14,
+     "description": "有語音解說"
+    },
+    {
+     "id": 41,
+     "description": "在手機上遠端暢玩"
+    },
+    {
+     "id": 42,
+     "description": "在平板上遠端暢玩"
+    },
+    {
+     "id": 44,
+     "description": "遠端同樂"
+    },
+    {
+     "id": 62,
+     "description": "親友同享"
+    },
+    {
+     "id": 63,
+     "description": "Steam 時間軸"
+    }
+   ],
+   "genres": [
+    {
+     "id": "1",
+     "description": "動作"
+    }
+   ],
+   "screenshots": [
+    {
+     "id": 0,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_47b4105b396de408cb8b6b4f358c69e5e2a62dae.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_47b4105b396de408cb8b6b4f358c69e5e2a62dae.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 1,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_0e499071a60a20b24149ad65a8edb769250f2921.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_0e499071a60a20b24149ad65a8edb769250f2921.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 2,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_ffb00abd45012680e4f209355ec81f961b6dd1fb.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_ffb00abd45012680e4f209355ec81f961b6dd1fb.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 3,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_b822a29b3804e05ab9517cac99a5d978d109a32b.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_b822a29b3804e05ab9517cac99a5d978d109a32b.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 4,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_c400361f185800786ea984e795f2a0dd4afee990.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_c400361f185800786ea984e795f2a0dd4afee990.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 5,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_a2aeefb3ad34c46af5c381ff03ac0973892f5530.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_a2aeefb3ad34c46af5c381ff03ac0973892f5530.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 6,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_394f4ad714937db2cc90545972b318ddb6db7231.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_394f4ad714937db2cc90545972b318ddb6db7231.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 7,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_412b0e9f8285d3695d0b39840da41c184dff591a.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_412b0e9f8285d3695d0b39840da41c184dff591a.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 8,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_93d1112a93572b2826a02456db4195c07bd2221a.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_93d1112a93572b2826a02456db4195c07bd2221a.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 9,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_ed5532325f508728f8481f0109d662352a519e0a.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_ed5532325f508728f8481f0109d662352a519e0a.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 10,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_4e76506add2af0c438d3c4bc810ccb823353fd13.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_4e76506add2af0c438d3c4bc810ccb823353fd13.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 11,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_8d6f9f74b33e2b0b296c6bff9836085e063b2d2f.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_8d6f9f74b33e2b0b296c6bff9836085e063b2d2f.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 12,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_1ee62eeed05669128167c2f28c5ece55aa683191.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_1ee62eeed05669128167c2f28c5ece55aa683191.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 13,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_1a36c58cd035de49493962da7bb929501a4b3bcc.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_1a36c58cd035de49493962da7bb929501a4b3bcc.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 14,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_06d5f06190db60187bb7128ae44902d676efef10.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_06d5f06190db60187bb7128ae44902d676efef10.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 15,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_b3de6987b384b2db61b5dcad2dd6460fd2969612.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_b3de6987b384b2db61b5dcad2dd6460fd2969612.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 16,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_4b9943f1961a35f0cdbeceed2f48c70cb05d791a.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_4b9943f1961a35f0cdbeceed2f48c70cb05d791a.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 17,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_18841cb9a8fc2cf67039317b601d10c4059b6fa8.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_18841cb9a8fc2cf67039317b601d10c4059b6fa8.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 18,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_fe894d70bdfa75236a4b451efbeea7d4ce3e0174.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_fe894d70bdfa75236a4b451efbeea7d4ce3e0174.1920x1080.jpg?t=1745368545"
+    },
+    {
+     "id": 19,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_70af5835953e5367fe536d90a8ddf2a26c2668dc.600x338.jpg?t=1745368545",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/ss_70af5835953e5367fe536d90a8ddf2a26c2668dc.1920x1080.jpg?t=1745368545"
+    }
+   ],
+   "movies": [
+    {
+     "id": 257074217,
+     "name": "Half-Life 2 Trailer",
+     "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257074217/2a5d40f3f7cd4a644849a7dae7ee9f9d7fb2074d/movie_600x337.jpg?t=1732069594",
+     "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/220/786885/faaab313be3601c35e8790f0eb2f6b32e5eda63b/1749861546/dash_av1.mpd?t=1732069594",
+     "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/220/786885/faaab313be3601c35e8790f0eb2f6b32e5eda63b/1749861546/dash_h264.mpd?t=1732069594",
+     "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/220/786885/faaab313be3601c35e8790f0eb2f6b32e5eda63b/1749861546/hls_264_master.m3u8?t=1732069594",
+     "highlight": true
+    },
+    {
+     "id": 904,
+     "name": "Half-Life 2 Trailer",
+     "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/904/003a9a6063e5f154f7244aa5b55e16ddeb390dc4/movie_600x337.jpg?t=1732069598",
+     "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/220/301/4ef935668e3113456d690174ae43410626b8855a/1749861546/dash_av1.mpd?t=1732069598",
+     "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/220/301/4ef935668e3113456d690174ae43410626b8855a/1749861546/dash_h264.mpd?t=1732069598",
+     "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/220/301/4ef935668e3113456d690174ae43410626b8855a/1749861546/hls_264_master.m3u8?t=1732069598",
+     "highlight": false
+    }
+   ],
+   "recommendations": {
+    "total": 203023
+   },
+   "achievements": {
+    "total": 69,
+    "highlighted": [
+     {
+      "icon": "hl2_hit_cancop_withcan.jpg",
+      "localized_name": "目空一切",
+      "archived": 0,
+      "hidden": 1,
+      "name": "目空一切",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_hit_cancop_withcan.jpg"
+     },
+     {
+      "icon": "hl2_put_canintrash.jpg",
+      "localized_name": "順從",
+      "archived": 0,
+      "hidden": 1,
+      "name": "順從",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_put_canintrash.jpg"
+     },
+     {
+      "icon": "hl2_escape_apartmentraid.jpg",
+      "localized_name": "不滿者",
+      "archived": 0,
+      "hidden": 0,
+      "name": "不滿者",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_escape_apartmentraid.jpg"
+     },
+     {
+      "icon": "hl2_break_miniteleporter.jpg",
+      "localized_name": "什麼貓？",
+      "archived": 0,
+      "hidden": 0,
+      "name": "什麼貓？",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_break_miniteleporter.jpg"
+     },
+     {
+      "icon": "hl2_get_crowbar.jpg",
+      "localized_name": "可靠的硬體",
+      "archived": 0,
+      "hidden": 0,
+      "name": "可靠的硬體",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_get_crowbar.jpg"
+     },
+     {
+      "icon": "hl2_kill_barnacleswithbarrel.jpg",
+      "localized_name": "藤壺怪連環殺",
+      "archived": 0,
+      "hidden": 0,
+      "name": "藤壺怪連環殺",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_kill_barnacleswithbarrel.jpg"
+     },
+     {
+      "icon": "hl2_get_airboat.jpg",
+      "localized_name": "起錨了！",
+      "archived": 0,
+      "hidden": 0,
+      "name": "起錨了！",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_get_airboat.jpg"
+     },
+     {
+      "icon": "hl2_get_airboatgun.jpg",
+      "localized_name": "重型武器",
+      "archived": 0,
+      "hidden": 0,
+      "name": "重型武器",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_get_airboatgun.jpg"
+     },
+     {
+      "icon": "hl2_find_vortigauntcave.jpg",
+      "localized_name": "發現弗地崗人",
+      "archived": 0,
+      "hidden": 0,
+      "name": "發現弗地崗人",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_find_vortigauntcave.jpg"
+     },
+     {
+      "icon": "hl2_kill_chopper.jpg",
+      "localized_name": "復仇！",
+      "archived": 0,
+      "hidden": 0,
+      "name": "復仇！",
+      "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_kill_chopper.jpg"
+     }
+    ]
+   },
+   "release_date": {
+    "coming_soon": false,
+    "date": "2004 年 11 月 16 日"
+   },
+   "support_info": {
+    "url": "http://steamcommunity.com/app/220",
+    "email": ""
+   },
+   "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/220?t=1745368545",
+   "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/page_bg_raw.jpg?t=1745368545",
+   "content_descriptors": {
+    "ids": [
+     2,
+     5
+    ],
+    "notes": "《戰慄時空 2》的遊戲過程各處均含有暴力。"
+   },
+   "ratings": {
+    "usk": {
+     "rating": "18"
+    },
+    "agcom": {
+     "rating": "16",
+     "descriptors": "Violenza\r\nPaura"
+    },
+    "dejus": {
+     "rating_generated": "1",
+     "rating": "14",
+     "required_age": "14",
+     "banned": "0",
+     "use_age_gate": "0",
+     "descriptors": "Violência"
+    },
+    "steam_germany": {
+     "rating_generated": "1",
+     "rating": "16",
+     "required_age": "16",
+     "banned": "0",
+     "use_age_gate": "0",
+     "descriptors": "Drastische Gewalt"
+    },
+    "igrs": {
+     "rating_generated": "1",
+     "rating": "18",
+     "required_age": "18",
+     "banned": "0",
+     "use_age_gate": "0",
+     "descriptors": "Kekerasan\nHoror"
+    }
+   }
+  }
+ }
+}

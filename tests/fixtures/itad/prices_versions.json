@@ -1,0 +1,63 @@
+[
+ {
+  "id": "018d937f-69a7-7354-bfff-7fcc53f11a27",
+  "deals": [
+   {
+    "shop": {
+     "id": 61,
+     "name": "Steam"
+    },
+    "price": {
+     "amount": 56,
+     "amountInt": 5600,
+     "currency": "TWD"
+    },
+    "regular": {
+     "amount": 226,
+     "amountInt": 22600,
+     "currency": "TWD"
+    },
+    "cut": 75
+   },
+   {
+    "shop": {
+     "id": 61,
+     "name": "Steam"
+    },
+    "price": {
+     "amount": 171,
+     "amountInt": 17100,
+     "currency": "TWD"
+    },
+    "regular": {
+     "amount": 406,
+     "amountInt": 40600,
+     "currency": "TWD"
+    },
+    "cut": 58
+   }
+  ]
+ },
+ {
+  "id": "0197ad38-0c21-73fa-bb69-9c7b41676553",
+  "deals": [
+   {
+    "shop": {
+     "id": 61,
+     "name": "Steam"
+    },
+    "price": {
+     "amount": 134,
+     "amountInt": 13400,
+     "currency": "TWD"
+    },
+    "regular": {
+     "amount": 670,
+     "amountInt": 67000,
+     "currency": "TWD"
+    },
+    "cut": 80
+   }
+  ]
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SweetSpot native messaging probe",
+  "version": "0.0.1",
+  "description": "015 plan research R0: native messaging and trusted clicks (prototype only)",
+  "background": {"service_worker": "sw.js"},
+  "permissions": ["nativeMessaging"],
+  "content_scripts": [{
+    "matches": ["https://store.steampowered.com/app/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }],
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'"
+  }
+}
