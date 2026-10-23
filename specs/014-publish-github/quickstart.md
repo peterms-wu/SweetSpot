@@ -60,6 +60,9 @@ uv run python scripts/scan_personal.py
 
 **結果**：`tests/integration/test_publish.py` 13 項通過（暫存 repo、假的 gh／掃描／測試）。另在 014 分支的暫存 clone（分支改名為 master）以真實的掃描與測試跑 `publish.py --dry-run`：688 個檔案、掃描不允許 0、公開資料夾的 pytest 與 node 57 通過、94 秒（plan 目標 10 分鐘內），公開資料夾回到原樣。試跑時找到兩個問題並修正：第一次發佈時檔案還沒暫存，掃描的測試（`git ls-files`）在公開資料夾失敗（90f1b58）；公開資料夾沒有 remote，掃描找不到 LICENSE 那一行的帳號名（a77ab2f：第一次發佈時加上 `origin`）。這個 clone 沒有使用者的設定檔與資料庫，帳號以外的「本人的值」由上面情境 C 的真實資料試跑涵蓋。
 
+**第 3 步的真實執行**（2026-10-23，014 T046 推送前）：在暫存的 master clone 與公開資料夾 clone 上做（不動真的 master 與公開資料夾，所以不用還原）；
+改、刪、加各一個檔，正式發佈以 0 結束（166 秒）：公開資料夾多 1 個 commit、三種改變都反映、和 master 的追蹤檔案逐檔相同、有 `publish/002`，掃描與測試都是真的。細節在 tasks.md 的 014 T046。
+
 **第一次設定的時間**（plan Performance Goals）：情境 B 的真實執行，從輸入網址到建立設定檔約數秒（3 個請求，間隔 1–1.5 秒），在 1 分鐘的目標內。
 
 ## 情境 G：從零安裝（US3、SC-003；clarify 2026-10-18 的做法，白天做）

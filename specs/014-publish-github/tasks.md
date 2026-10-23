@@ -313,7 +313,7 @@ description: "Task list for 014 publish to GitHub"
     合併後在〈專案資料夾〉：pytest 1950 passed、`scan_personal.py` 不允許 0（689 檔）、`scan_names.py` 未允許 0（685 檔）；
     `SWEETSPOT_BACKGROUND=1` 跑唯讀的 `coverage` 以 0 結束（使用者本人的設定檔照常讀到，不會走第一次設定）；`schedule status` 與合併前相同。
     Chrome 重新載入 1.2.2 由使用者做；還沒推送到 private。
-- [ ] T045 合併後，與使用者一起在白天做 quickstart 情境 G（從零安裝）：
+- [X] T045 合併後，與使用者一起在白天做 quickstart 情境 G（從零安裝）：
   - 先執行 `uv run python scripts/publish.py --dry-run`，再實際執行，產生公開資料夾；把公開資料夾複製到新資料夾；
   - 另一個 Chrome 設定檔；排程用 `--name "SweetSpot 驗收"`；
   - 記錄每一步的時間，補進 README（把 T036 的「待量」換成實測值）；`sweetspot reference` 的實測時間同時填進參考資料集提示的文字（contracts/cli.md §6 的「約 N 分鐘」、`report/html.py` 與擴充功能）與 research R6；
@@ -325,12 +325,24 @@ description: "Task list for 014 publish to GitHub"
     A（建議）看完整份清單（`population_exhausted`）時改成「已補完、少於原作者驗證時的規模」，不再叫使用者執行；B 改門檻（要重寫 R6 的理由）；C 只在 README 寫明。
   - 其他驗收發現（不在 014 範圍內修改，供使用者決定是否另外處理）：Steam 商店整站故障時 `reference` 以 1 結束、訊息只有 HTTP 502（README 可以寫「稍後再執行會接著做」）；
     `schedule status` 對還沒執行過的工作印出 Windows 的原始值；`setup` 不在日誌留結果行。
-- [ ] T046 第一次正式公開（**使用者確認後才做**）：
+  - 上面「還沒做」與驗收發現都在 Phase 8（T048–T054）完成，之後兩輪稽核（Phase 9、10）後重新發佈。
+    使用者 2026-10-23 看過公開資料夾的 README.md、LICENSE 與檔案清單，沒有要改的，確認勾選。
+- [X] T046 第一次正式公開（**使用者確認後才做**）：
   - 讓使用者看 `publish.py` 印出的檔案清單、訊息與掃描結果；
   - 使用者確認後，由使用者執行或同意執行印出的指令：`gh repo create <帳號>/SweetSpot --public`（空的 repo）、`git -C <公開資料夾> push -u origin main`，以及 `git push private --tags`；
     （2026-10-22 稽核補記：原本寫的 `gh repo create … --source … --push` 不是 `publish.py` 印出的指令，已被 contracts/publish.md §2 第 8 步取代。
     使用者的 `gh` 用 ssh 推送，推送前先把公開資料夾的 `origin` 改成 ssh 網址，同一步驟的註記。）
   - 確認公開 repo 只有 1 個 commit、作者是 noreply 地址（SC-005）。
+  - 2026-10-23 推送前補做 SC-005 後半（quickstart 情境 F 第 3 步；稽核紀錄寫過「沒有實際做第二次發佈」，使用者同意先做）：
+    在〈暫存資料夾〉clone master（`50f16cd`，帶 `publish/001`，remote 與設定檔、資料庫照〈專案資料夾〉）和公開資料夾（`7cde025`），
+    master 的 clone 改一個檔、刪一個檔、加一個檔後 commit，用 clone 裡的 `publish.py --to <公開資料夾的 clone>` 正式發佈（真的 gh、掃描、測試）：
+    結束代碼 0、166 秒；4 個檔案有變動（三種改變，加上 `publish/001` 之後 master 改過的 tasks.md）；發佈檢查 693 個檔案不允許 0；
+    pytest 2057 個全過、node 59；公開資料夾多 1 個 commit（作者與提交者 noreply），和 master 的追蹤檔案（扣掉 HANDOFF.md）693 個逐檔相同（`git ls-tree` 比對）；
+    `publish/002` 打在測試 commit、訊息記著新的公開 commit。沒有推送；暫存資料夾（含資料庫複本）已刪除，〈專案資料夾〉的 master、tag 與公開資料夾都沒有改變。
+  - 2026-10-23 公開（使用者同意的條件：當天 02:30 沒問題。02:30 整體 0，update／report／backup 都是 0，報告已有 75% 與頁首的購買選項說明）：
+    公開資料夾 `origin` 改成 ssh 網址 → `gh repo create <帳號>/SweetSpot --public` → `git push -u origin main`。
+    從 GitHub API 確認：公開 repo 只有 1 個 commit（`7cde025`），作者與提交者都是 noreply 地址；693 個檔案，沒有 HANDOFF.md；只有 `main`，沒有 tag（SC-005）。
+    公開的是 `publish/001`（master `357332e`）；之後 master 的修改要用 `publish.py` 做 `publish/002`。
 - [X] T047 合併後連續 3 晚（quickstart 情境 H）：
   - 當天日誌有 update、report、backup 三行結果，整體代碼 0 或 2，雲端備份照常；
   - 使用者確認後勾選，SC-006。
@@ -429,7 +441,9 @@ description: "Task list for 014 publish to GitHub"
     `NS_BACKTESTS`、docs/model/model-definition.md 的整節數字、README「約 75%」改成這次的結果；決策紀錄的 `backtest` 多 `seasonal_model`。報告的句子從「74%」變成「75%」。
 - [X] T079 文件補記：各 spec 的 contract、data-model、quickstart；schema v7；維運行為（雲端備份、`背景更新.cmd`、日誌結果行、輸出編碼）；README；014 T062 寫錯的 `reference` 註記。
 - [X] T081 （稽核後發現，使用者 2026-10-22 同意）015 擴充功能：本機程式「無法使用」的說明只包一次（`lib.js` 的 `hostState`，content.js 改用它）；擴充功能 1.2.4。
-- [ ] T082 重做 `publish/001`（使用者 2026-10-22 同意刪除私人 repo 上的舊 tag）：刪除本機與私人 repo 的 `publish/001`、公開資料夾，重新發佈，master 與 tag 推到私人 repo。
+- [X] T082 重做 `publish/001`（使用者 2026-10-22 同意刪除私人 repo 上的舊 tag）：刪除本機與私人 repo 的 `publish/001`、公開資料夾，重新發佈，master 與 tag 推到私人 repo。
+  - 2026-10-22：確認公開 repo 不存在、舊的公開資料夾乾淨後刪除；e2e 124/124（T081 改了擴充功能，發佈的測試步驟不跑 e2e）；
+    `--dry-run` 146 秒，正式 169 秒：693 檔、發佈檢查不允許 0，公開 commit 1 個（作者與提交者 noreply），`publish/001` 打在 `357332e`。公開 repo 沒有推送。
 - [X] T080 稽核紀錄寫進 repo；跑情境 A 全部。
   - 2026-10-22：[audit-2026-10-22-earlier.md](./audit-2026-10-22-earlier.md)；pytest 2055、node 58、e2e 124/124、`scan_names.py` 未允許 0、`scan_personal.py` 不允許 0（每一項都看結束代碼，不接管線）。
 
